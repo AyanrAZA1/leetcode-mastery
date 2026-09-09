@@ -4,7 +4,7 @@
     "slug": "array",
     "name": "Array"
   },
-  "updatedAt": "2026-09-09T06:21:48.669Z",
+  "updatedAt": "2026-09-09T06:21:58.270Z",
   "problems": [
     {
       "frontendId": "16",
@@ -63,6 +63,26 @@
           "path": "1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp",
           "sha": "4ea0c726d090204e52cde03e05c9053e5198f7a2",
           "lastSyncedAt": "2026-09-09T06:21:48.669Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "1920",
+      "title": "Build Array from Permutation",
+      "slug": "build-array-from-permutation",
+      "problemName": "1920-build-array-from-permutation",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/build-array-from-permutation/",
+      "folderPath": "1920-build-array-from-permutation/",
+      "readmePath": "1920-build-array-from-permutation/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "1920-build-array-from-permutation.java",
+          "path": "1920-build-array-from-permutation/1920-build-array-from-permutation.java",
+          "sha": "5b3296efc770b8a712d33be0a773054695fbcf19",
+          "lastSyncedAt": "2026-09-09T06:21:58.270Z"
         }
       ]
     }
