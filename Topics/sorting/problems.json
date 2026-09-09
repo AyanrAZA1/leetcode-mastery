@@ -4,6 +4,27 @@
     "slug": "sorting",
     "name": "Sorting"
   },
-  "updatedAt": "2026-09-09T06:20:26.773Z",
-  "problems": []
+  "updatedAt": "2026-09-09T06:20:56.639Z",
+  "problems": [
+    {
+      "frontendId": "16",
+      "title": "3Sum Closest",
+      "slug": "3sum-closest",
+      "problemName": "0016-3sum-closest",
+      "difficulty": "Medium",
+      "leetcodeUrl": "https://leetcode.com/problems/3sum-closest/",
+      "folderPath": "0016-3sum-closest/",
+      "readmePath": "0016-3sum-closest/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "0016-3sum-closest.cpp",
+          "path": "0016-3sum-closest/0016-3sum-closest.cpp",
+          "sha": "2e6a2fa36de96f5d1d1d3e8e8412dee18ddb04fe",
+          "lastSyncedAt": "2026-09-09T06:20:56.639Z"
+        }
+      ]
+    }
+  ]
 }
