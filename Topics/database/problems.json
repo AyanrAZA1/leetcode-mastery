@@ -4,8 +4,28 @@
     "slug": "database",
     "name": "Database"
   },
-  "updatedAt": "2026-09-09T06:21:11.830Z",
+  "updatedAt": "2026-09-09T06:21:18.796Z",
   "problems": [
+    {
+      "frontendId": "595",
+      "title": "Big Countries",
+      "slug": "big-countries",
+      "problemName": "0595-big-countries",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/big-countries/",
+      "folderPath": "0595-big-countries/",
+      "readmePath": "0595-big-countries/README.md",
+      "solutions": [
+        {
+          "language": "PostgreSQL",
+          "extension": ".sql",
+          "filename": "0595-big-countries.sql",
+          "path": "0595-big-countries/0595-big-countries.sql",
+          "sha": "7c1e162dc13d90afb734ff5f3ec74686b2ea520a",
+          "lastSyncedAt": "2026-09-09T06:21:18.796Z"
+        }
+      ]
+    },
     {
       "frontendId": "1148",
       "title": "Article Views I",
