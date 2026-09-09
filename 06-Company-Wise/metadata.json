@@ -1,0 +1,21 @@
+{
+  "leetcode_id": 6,
+  "slug": "06-Company-Wise",
+  "language": null,
+  "category": null,
+  "difficulty": null,
+  "topics": [],
+  "patterns": [],
+  "companies": [],
+  "revision": {
+    "status": "new",
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": null
+  },
+  "complexity": {
+    "time": null,
+    "space": null
+  },
+  "notes": ""
+}
