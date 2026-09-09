@@ -1,7 +1,7 @@
 {
   "leetcode_id": 1683,
   "title": "Invalid Tweets",
-  "slug": "1683-invalid-tweets",
+  "slug": "invalid-tweets",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
@@ -20,5 +20,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "1683-invalid-tweets.sql"
+  ]
 }

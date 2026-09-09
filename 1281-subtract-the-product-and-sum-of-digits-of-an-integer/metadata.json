@@ -1,7 +1,7 @@
 {
   "leetcode_id": 1281,
   "title": "Subtract The Product And Sum Of Digits Of An Integer",
-  "slug": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+  "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
@@ -20,5 +20,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
+  ]
 }

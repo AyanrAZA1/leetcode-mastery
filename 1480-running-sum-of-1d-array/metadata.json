@@ -1,7 +1,7 @@
 {
   "leetcode_id": 1480,
   "title": "Running Sum Of 1D Array",
-  "slug": "1480-running-sum-of-1d-array",
+  "slug": "running-sum-of-1d-array",
   "language": "C++",
   "category": "DSA",
   "difficulty": "Easy",
@@ -9,7 +9,9 @@
     "Array",
     "Prefix Sum"
   ],
-  "patterns": [],
+  "patterns": [
+    "Prefix Sum"
+  ],
   "companies": [],
   "revision": {
     "status": "new",
@@ -21,5 +23,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "1480-running-sum-of-1d-array.cpp"
+  ]
 }

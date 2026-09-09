@@ -1,10 +1,10 @@
 {
   "leetcode_id": 6,
   "title": "Company Wise",
-  "slug": "06-Company-Wise",
-  "language": null,
+  "slug": "Company-Wise",
+  "language": "Unknown",
   "category": "DSA",
-  "difficulty": null,
+  "difficulty": "Unknown",
   "topics": [],
   "patterns": [],
   "companies": [],
@@ -18,5 +18,6 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": []
 }

@@ -1,5 +1,5 @@
 {
-  "DSA": [
+  "status": [
     {
       "id": 4,
       "slug": "median-of-two-sorted-arrays",
@@ -36,6 +36,26 @@
       "title": "Sort Colors"
     },
     {
+      "id": 175,
+      "slug": "combine-two-tables",
+      "title": "Combine Two Tables"
+    },
+    {
+      "id": 584,
+      "slug": "find-customer-referee",
+      "title": "Find Customer Referee"
+    },
+    {
+      "id": 595,
+      "slug": "big-countries",
+      "title": "Big Countries"
+    },
+    {
+      "id": 1148,
+      "slug": "article-views-i",
+      "title": "Article Views I"
+    },
+    {
       "id": 1281,
       "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
       "title": "Subtract The Product And Sum Of Digits Of An Integer"
@@ -49,6 +69,16 @@
       "id": 1480,
       "slug": "running-sum-of-1d-array",
       "title": "Running Sum Of 1D Array"
+    },
+    {
+      "id": 1683,
+      "slug": "invalid-tweets",
+      "title": "Invalid Tweets"
+    },
+    {
+      "id": 1757,
+      "slug": "recyclable-and-low-fat-products",
+      "title": "Recyclable And Low Fat Products"
     },
     {
       "id": 1768,
@@ -74,38 +104,6 @@
       "id": 2520,
       "slug": "count-the-digits-that-divide-a-number",
       "title": "Count The Digits That Divide A Number"
-    }
-  ],
-  "SQL": [
-    {
-      "id": 175,
-      "slug": "combine-two-tables",
-      "title": "Combine Two Tables"
-    },
-    {
-      "id": 584,
-      "slug": "find-customer-referee",
-      "title": "Find Customer Referee"
-    },
-    {
-      "id": 595,
-      "slug": "big-countries",
-      "title": "Big Countries"
-    },
-    {
-      "id": 1148,
-      "slug": "article-views-i",
-      "title": "Article Views I"
-    },
-    {
-      "id": 1683,
-      "slug": "invalid-tweets",
-      "title": "Invalid Tweets"
-    },
-    {
-      "id": 1757,
-      "slug": "recyclable-and-low-fat-products",
-      "title": "Recyclable And Low Fat Products"
     }
   ]
 }

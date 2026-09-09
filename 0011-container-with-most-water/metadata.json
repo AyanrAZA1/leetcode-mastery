@@ -1,7 +1,7 @@
 {
   "leetcode_id": 11,
   "title": "Container With Most Water",
-  "slug": "0011-container-with-most-water",
+  "slug": "container-with-most-water",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Medium",
@@ -24,5 +24,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "0011-container-with-most-water.java"
+  ]
 }

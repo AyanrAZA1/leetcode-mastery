@@ -1,6 +1,38 @@
 {
   "Dynamic Programming": [
-    11,
-    595
+    {
+      "id": 11,
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water"
+    },
+    {
+      "id": 595,
+      "slug": "big-countries",
+      "title": "Big Countries"
+    }
+  ],
+  "Prefix Sum": [
+    {
+      "id": 1480,
+      "slug": "running-sum-of-1d-array",
+      "title": "Running Sum Of 1D Array"
+    }
+  ],
+  "Sorting": [
+    {
+      "id": 4,
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median Of Two Sorted Arrays"
+    },
+    {
+      "id": 75,
+      "slug": "sort-colors",
+      "title": "Sort Colors"
+    },
+    {
+      "id": 1148,
+      "slug": "article-views-i",
+      "title": "Article Views I"
+    }
   ]
 }

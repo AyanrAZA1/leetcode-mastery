@@ -1,7 +1,7 @@
 {
   "leetcode_id": 16,
   "title": "3Sum Closest",
-  "slug": "0016-3sum-closest",
+  "slug": "3sum-closest",
   "language": "C++",
   "category": "DSA",
   "difficulty": "Medium",
@@ -22,5 +22,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "0016-3sum-closest.cpp"
+  ]
 }

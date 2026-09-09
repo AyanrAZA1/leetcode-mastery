@@ -1,0 +1,41 @@
+name: LeetCode Mastery Automation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-mastery:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build mastery indexes
+        run: python3 10-Automation/scripts/build_mastery.py
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add 10-Automation/data \
+                  10-Automation/indexes \
+                  PROGRESS.md \
+                  README.md \
+                  -- '*.json' '*.md'
+
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "chore: update mastery indexes"
+            git push
+          fi

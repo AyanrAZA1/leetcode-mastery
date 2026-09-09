@@ -1,276 +1,516 @@
-import json,re
+#!/usr/bin/env python3
+
+import json
+import re
 from pathlib import Path
-from collections import Counter,defaultdict
+from collections import Counter, defaultdict
+from datetime import datetime, timezone
 
-ROOT=Path(__file__).resolve().parents[2]
-DATA=ROOT/"10-Automation/data"
-INDEX=ROOT/"10-Automation/indexes"
-DATA.mkdir(parents=True,exist_ok=True)
-INDEX.mkdir(parents=True,exist_ok=True)
+ROOT = Path(__file__).resolve().parents[2]
+DATA = ROOT / "10-Automation" / "data"
+INDEX = ROOT / "10-Automation" / "indexes"
 
-EXT={".java":"Java",".cpp":"C++",".py":"Python",".js":"JavaScript",
-     ".ts":"TypeScript",".sql":"SQL",".go":"Go",".rs":"Rust"}
+DATA.mkdir(parents=True, exist_ok=True)
+INDEX.mkdir(parents=True, exist_ok=True)
 
-DIFF=["Easy","Medium","Hard"]
-
-TOPIC_MAP={
-"array":"Array","string":"String","hash-table":"Hash Table",
-"linked-list":"Linked List","stack":"Stack","queue":"Queue",
-"heap":"Heap","graph":"Graph","binary-tree":"Binary Tree",
-"binary-search":"Binary Search","backtracking":"Backtracking",
-"dynamic-programming":"Dynamic Programming","greedy":"Greedy",
-"divide-and-conquer":"Divide and Conquer","sorting":"Sorting",
-"prefix-sum":"Prefix Sum","two-pointers":"Two Pointers",
-"sliding-window":"Sliding Window","matrix":"Matrix",
-"math":"Math","database":"Database","bit-manipulation":"Bit Manipulation",
-"simulation":"Simulation"
+EXTENSIONS = {
+    ".java": "Java",
+    ".cpp": "C++",
+    ".cc": "C++",
+    ".cxx": "C++",
+    ".sql": "SQL",
+    ".py": "Python",
+    ".js": "JavaScript",
+    ".ts": "TypeScript",
+    ".go": "Go",
+    ".rs": "Rust",
 }
 
-PATTERNS={
-"binary-search":["binary search"],
-"sliding-window":["sliding window"],
-"two-pointers":["two pointers"],
-"prefix-sum":["prefix sum"],
-"greedy":["greedy"],
-"backtracking":["backtracking"],
-"dynamic-programming":["dynamic programming","dp"],
-"divide-and-conquer":["divide and conquer"],
-"fast-slow-pointers":["fast slow","fast and slow"],
-"monotonic-stack":["monotonic stack"],
-"merge-intervals":["merge intervals"]
+SQL_WORDS = {
+    "sql", "database", "mysql", "postgresql",
+    "join", "subquery", "group by", "having",
+    "select", "where", "window function", "cte"
 }
 
-def problem_id(name):
-    m=re.match(r"^(\d+)-(.+)$",name)
-    return int(m.group(1)) if m else None
+PATTERNS = {
+    "Sliding Window": [
+        "sliding window", "window"
+    ],
+    "Two Pointers": [
+        "two pointers", "two-pointer", "two pointer"
+    ],
+    "Binary Search": [
+        "binary search", "binary-search"
+    ],
+    "Prefix Sum": [
+        "prefix sum", "prefix-sum", "running sum"
+    ],
+    "Fast Slow Pointers": [
+        "fast slow", "fast and slow", "slow pointer", "fast pointer"
+    ],
+    "Merge Intervals": [
+        "merge intervals", "intervals"
+    ],
+    "Monotonic Stack": [
+        "monotonic stack", "next greater", "next smaller"
+    ],
+    "Backtracking": [
+        "backtracking", "backtrack"
+    ],
+    "Dynamic Programming": [
+        "dynamic programming", "dynamic-programming", "dp"
+    ],
+    "Greedy": [
+        "greedy"
+    ],
+    "DFS": [
+        "depth first search", "dfs"
+    ],
+    "BFS": [
+        "breadth first search", "bfs"
+    ],
+    "Divide and Conquer": [
+        "divide and conquer"
+    ],
+    "Heap": [
+        "heap", "priority queue"
+    ],
+    "Hashing": [
+        "hash map", "hash table", "hashing", "dictionary"
+    ],
+    "Sorting": [
+        "sorting", "sort"
+    ],
+    "Recursion": [
+        "recursion", "recursive"
+    ],
+    "Bit Manipulation": [
+        "bit manipulation", "bitwise"
+    ],
+}
 
-def title_from_slug(name):
-    m=re.match(r"^\d+-(.+)$",name)
-    if not m:return name
-    return m.group(1).replace("-"," ").title()
+TOPIC_ALIASES = {
+    "array": "Array",
+    "arrays": "Array",
+    "string": "String",
+    "strings": "String",
+    "hash-table": "Hash Table",
+    "hash table": "Hash Table",
+    "hashing": "Hash Table",
+    "linked-list": "Linked List",
+    "linked list": "Linked List",
+    "stack": "Stack",
+    "queue": "Queue",
+    "heap": "Heap",
+    "binary-tree": "Binary Tree",
+    "tree": "Tree",
+    "binary search tree": "Binary Search Tree",
+    "graph": "Graph",
+    "graphs": "Graph",
+    "matrix": "Matrix",
+    "sorting": "Sorting",
+    "math": "Math",
+    "simulation": "Simulation",
+    "prefix-sum": "Prefix Sum",
+    "prefix sum": "Prefix Sum",
+    "two-pointers": "Two Pointers",
+    "two pointers": "Two Pointers",
+    "binary-search": "Binary Search",
+    "binary search": "Binary Search",
+    "backtracking": "Backtracking",
+    "greedy": "Greedy",
+    "dynamic-programming": "Dynamic Programming",
+    "dynamic programming": "Dynamic Programming",
+    "divide-and-conquer": "Divide and Conquer",
+    "divide and conquer": "Divide and Conquer",
+    "bit-manipulation": "Bit Manipulation",
+    "database": "Database",
+    "sql": "Database",
+}
 
-def solution_language(folder):
-    for f in folder.iterdir():
-        if f.is_file() and f.suffix in EXT:
-            return EXT[f.suffix]
-    return None
+def read_text(path):
+    try:
+        return path.read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        return ""
 
-def readme(folder):
-    f=folder/"README.md"
-    try:return f.read_text(encoding="utf-8",errors="ignore")
-    except:return ""
+def dump(path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(obj, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8"
+    )
 
-def extract_difficulty(text):
-    low=text.lower()
-    for d in DIFF:
-        if re.search(r"\b"+d.lower()+r"\b",low):
-            return d
-    return None
+def problem_id_slug(path):
+    m = re.match(r"^(\d+)-(.+)$", path.name)
+    if not m:
+        return None, None
+    return m.group(1), m.group(2)
 
-def extract_topics(text):
-    low=text.lower()
-    found=[]
-    for key,name in TOPIC_MAP.items():
-        if key in low:
-            found.append(name)
-    return sorted(set(found))
+def detect_language(files):
+    langs = []
+    for f in files:
+        if f.suffix.lower() in EXTENSIONS:
+            langs.append(EXTENSIONS[f.suffix.lower()])
+    if not langs:
+        return "Unknown"
+    return Counter(langs).most_common(1)[0][0]
 
-def infer_patterns(text):
-    low=text.lower()
-    found=[]
-    for name,terms in PATTERNS.items():
-        if any(t in low for t in terms):
-            found.append(name.replace("-"," ").title())
-    return sorted(set(found))
+def detect_category(language, text, files):
+    if language == "SQL":
+        return "SQL"
 
-problems=[]
-languages=Counter()
-difficulties=Counter()
-topics=Counter()
-patterns=Counter()
-categories=Counter()
+    lower = text.lower()
 
-for folder in sorted(ROOT.iterdir()):
-    if not folder.is_dir() or not re.match(r"^\d+-",folder.name):
-        continue
+    sql_score = sum(1 for word in SQL_WORDS if word in lower)
 
-    pid=problem_id(folder.name)
-    if pid is None: continue
+    if sql_score >= 3:
+        return "SQL"
 
-    text=readme(folder)
-    lang=solution_language(folder)
-    diff=extract_difficulty(text)
-    tops=extract_topics(text)
-    pats=infer_patterns(text)
+    if any(f.suffix.lower() == ".sql" for f in files):
+        return "SQL"
 
-    category="SQL" if lang=="SQL" else "DSA"
+    return "DSA"
 
-    # Prefer explicit topic data when available
-    topic_json=[]
-    for p in ROOT.glob("Topics/*/problems.json"):
-        try:
-            data=json.loads(p.read_text(encoding="utf-8"))
-            blob=json.dumps(data).lower()
-            slug=folder.name.lower()
-            if slug in blob:
-                topic_json.append(p.parent.name)
-        except: pass
+def detect_difficulty(text):
+    lines = text.splitlines()
 
-    for t in topic_json:
-        if t in TOPIC_MAP:
-            tops.append(TOPIC_MAP[t])
+    # Prefer explicit metadata-style lines.
+    patterns = [
+        r"\*\*difficulty\*\*\s*:\s*(easy|medium|hard)",
+        r"difficulty\s*:\s*(easy|medium|hard)",
+        r"^\s*(easy|medium|hard)\s*$",
+    ]
 
-    tops=sorted(set(tops))
+    for line in lines:
+        clean = line.strip().lower()
+        for p in patterns:
+            m = re.search(p, clean, re.I)
+            if m:
+                return m.group(1).capitalize()
 
-    metadata={
-        "leetcode_id":pid,
-        "title":title_from_slug(folder.name),
-        "slug":folder.name,
-        "language":lang,
-        "category":category,
-        "difficulty":diff,
-        "topics":tops,
-        "patterns":pats,
-        "companies":[],
-        "revision":{
-            "status":"new",
-            "attempts":0,
-            "last_reviewed":None,
-            "next_review":None
-        },
-        "complexity":{"time":None,"space":None},
-        "notes":""
+    # LeetHub README often contains difficulty near title/metadata.
+    first = "\n".join(lines[:20]).lower()
+
+    for difficulty in ("Hard", "Medium", "Easy"):
+        if re.search(rf"\b{difficulty.lower()}\b", first):
+            return difficulty
+
+    return "Unknown"
+
+def detect_topics(slug, text):
+    topics = set()
+    lower = (slug + "\n" + text).lower()
+
+    for alias, canonical in TOPIC_ALIASES.items():
+        if alias in lower:
+            topics.add(canonical)
+
+    # Topic directories from LeetHub.
+    topics_dir = ROOT / "Topics"
+    if topics_dir.exists():
+        for d in topics_dir.iterdir():
+            if not d.is_dir():
+                continue
+
+            pjson = d / "problems.json"
+            if not pjson.exists():
+                continue
+
+            raw = read_text(pjson)
+
+            if slug.lower() in raw.lower():
+                canonical = TOPIC_ALIASES.get(d.name.lower(), d.name.replace("-", " ").title())
+                topics.add(canonical)
+
+    return sorted(topics)
+
+def detect_patterns(text):
+    lower = text.lower()
+    found = set()
+
+    for pattern, words in PATTERNS.items():
+        for word in words:
+            if word in lower:
+                found.add(pattern)
+                break
+
+    return sorted(found)
+
+def clean_title(slug):
+    title = re.sub(r"^\d+-", "", slug)
+    return title.replace("-", " ").title()
+
+def discover():
+    problems = []
+
+    for p in ROOT.iterdir():
+        if not p.is_dir():
+            continue
+
+        pid, slug = problem_id_slug(p)
+
+        if not pid:
+            continue
+
+        files = [
+            f for f in p.iterdir()
+            if f.is_file() and f.name != "metadata.json"
+        ]
+
+        if not files:
+            continue
+
+        readme = p / "README.md"
+        text = read_text(readme) if readme.exists() else ""
+
+        language = detect_language(files)
+        category = detect_category(language, text, files)
+        difficulty = detect_difficulty(text)
+        topics = detect_topics(slug, text)
+        patterns = detect_patterns(text)
+
+        existing = {}
+        metadata_file = p / "metadata.json"
+
+        if metadata_file.exists():
+            try:
+                existing = json.loads(read_text(metadata_file))
+            except Exception:
+                existing = {}
+
+        metadata = {
+            **existing,
+            "leetcode_id": int(pid),
+            "slug": slug,
+            "title": existing.get("title") or clean_title(slug),
+            "language": existing.get("language") or language,
+            "category": existing.get("category") or category,
+            "difficulty": existing.get("difficulty") or difficulty,
+            "topics": sorted(set(existing.get("topics", [])) | set(topics)),
+            "patterns": sorted(set(existing.get("patterns", [])) | set(patterns)),
+            "companies": existing.get("companies", []),
+            "revision": existing.get("revision", {
+                "must_revise": False,
+                "important": False,
+                "mistake": False,
+                "frequently_asked": False
+            }),
+            "complexity": existing.get("complexity", {
+                "time": "Unknown",
+                "space": "Unknown"
+            }),
+            "notes": existing.get("notes", ""),
+            "solution_files": sorted(
+                str(f.relative_to(p))
+                for f in files
+                if f.suffix.lower() in EXTENSIONS
+            )
+        }
+
+        dump(metadata_file, metadata)
+
+        problems.append(metadata)
+
+    problems.sort(key=lambda x: x["leetcode_id"])
+
+    return problems
+
+def build_indexes(problems):
+    difficulty = defaultdict(list)
+    language = defaultdict(list)
+    category = defaultdict(list)
+    topic = defaultdict(list)
+    pattern = defaultdict(list)
+    revision = defaultdict(list)
+
+    for p in problems:
+        ref = {
+            "id": p["leetcode_id"],
+            "slug": p["slug"],
+            "title": p["title"]
+        }
+
+        difficulty[p["difficulty"]].append(ref)
+        language[p["language"]].append(ref)
+        category[p["category"]].append(ref)
+
+        for t in p.get("topics", []):
+            topic[t].append(ref)
+
+        for pat in p.get("patterns", []):
+            pattern[pat].append(ref)
+
+        rev = p.get("revision", {})
+
+        for key, enabled in rev.items():
+            if enabled:
+                revision[key].append(ref)
+
+    dump(INDEX / "by-difficulty.json", dict(sorted(difficulty.items())))
+    dump(INDEX / "by-language.json", dict(sorted(language.items())))
+    dump(INDEX / "by-category.json", dict(sorted(category.items())))
+    dump(INDEX / "by-topic.json", dict(sorted(topic.items())))
+    dump(INDEX / "by-pattern.json", dict(sorted(pattern.items())))
+    dump(INDEX / "by-revision.json", dict(sorted(revision.items())))
+
+def build_statistics(problems):
+    difficulty = Counter(p["difficulty"] for p in problems)
+    language = Counter(p["language"] for p in problems)
+    category = Counter(p["category"] for p in problems)
+
+    topics = Counter()
+    patterns = Counter()
+
+    for p in problems:
+        topics.update(p.get("topics", []))
+        patterns.update(p.get("patterns", []))
+
+    stats = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "total": len(problems),
+        "difficulty": dict(difficulty),
+        "language": dict(language),
+        "category": dict(category),
+        "topics": dict(topics.most_common()),
+        "patterns": dict(patterns.most_common()),
     }
 
-    (folder/"metadata.json").write_text(
-        json.dumps(metadata,indent=2,ensure_ascii=False),
-        encoding="utf-8"
-    )
+    dump(DATA / "statistics.json", stats)
+    return stats
 
-    problems.append(metadata)
+def build_progress(stats):
+    d = stats["difficulty"]
+    l = stats["language"]
+    c = stats["category"]
 
-    if lang: languages[lang]+=1
-    if diff: difficulties[diff]+=1
-    categories[category]+=1
-    for t in tops: topics[t]+=1
-    for p in pats: patterns[p]+=1
+    md = f"""# 📊 LeetCode Progress
 
-# Master database
-problems.sort(key=lambda x:x["leetcode_id"])
+> Automatically generated by `10-Automation/scripts/build_mastery.py`.
 
-(DATA/"problems.json").write_text(
-    json.dumps(problems,indent=2,ensure_ascii=False),
-    encoding="utf-8"
-)
+## Overall
 
-# Generic index writer
-def write_index(name,items):
-    (INDEX/name).write_text(
-        json.dumps(items,indent=2,ensure_ascii=False),
-        encoding="utf-8"
-    )
+| Category | Solved |
+|---|---:|
+| DSA | {c.get("DSA", 0)} |
+| SQL | {c.get("SQL", 0)} |
+| Total | {stats["total"]} |
 
-write_index("by-difficulty.json",{
-    d:[p["leetcode_id"] for p in problems if p["difficulty"]==d]
-    for d in DIFF
-})
+## Difficulty
 
-write_index("by-language.json",{
-    l:[p["leetcode_id"] for p in problems if p["language"]==l]
-    for l in sorted(languages)
-})
+| Difficulty | Solved |
+|---|---:|
+| 🟢 Easy | {d.get("Easy", 0)} |
+| 🟡 Medium | {d.get("Medium", 0)} |
+| 🔴 Hard | {d.get("Hard", 0)} |
+| ❓ Unknown | {d.get("Unknown", 0)} |
 
-write_index("by-category.json",{
-    c:[p["leetcode_id"] for p in problems if p["category"]==c]
-    for c in sorted(categories)
-})
+## Languages
 
-write_index("by-topic.json",{
-    t:[p["leetcode_id"] for p in problems if t in p["topics"]]
-    for t in sorted(topics)
-})
+| Language | Problems |
+|---|---:|
+"""
 
-write_index("by-pattern.json",{
-    p:[x["leetcode_id"] for x in problems if p in x["patterns"]]
-    for p in sorted(patterns)
-})
+    for lang, count in sorted(l.items(), key=lambda x: (-x[1], x[0])):
+        md += f"| {lang} | {count} |\n"
 
-# Statistics
-stats={
-    "total_problems":len(problems),
-    "categories":dict(categories),
-    "languages":dict(languages),
-    "difficulty":dict(difficulties),
-    "topics":dict(topics),
-    "patterns":dict(patterns),
-    "missing_difficulty":[p["leetcode_id"] for p in problems if not p["difficulty"]],
-    "missing_topics":[p["leetcode_id"] for p in problems if not p["topics"]]
-}
+    md += """
+## Top Topics
 
-(DATA/"statistics.json").write_text(
-    json.dumps(stats,indent=2,ensure_ascii=False),
-    encoding="utf-8"
-)
+| Topic | Problems |
+|---|---:|
+"""
 
-# Progress
-lines=[
-"# 📊 LeetCode Progress\n",
-"> Automatically generated by the Mastery Engine.\n",
-"## Overall\n",
-"| Category | Solved |\n|---|---:|"
-]
+    for topic, count in list(stats["topics"].items())[:25]:
+        md += f"| {topic} | {count} |\n"
 
-for c in sorted(categories):
-    lines.append(f"| {c} | {categories[c]} |")
+    md += """
+## Top Patterns
 
-lines += [
-f"| **Total** | **{len(problems)}** |",
-"",
-"## Difficulty",
-"| Difficulty | Solved |",
-"|---|---:|"
-]
+| Pattern | Problems |
+|---|---:|
+"""
 
-for d in DIFF:
-    lines.append(f"| {d} | {difficulties[d]} |")
+    for pattern, count in list(stats["patterns"].items())[:20]:
+        md += f"| {pattern} | {count} |\n"
 
-lines += [
-"",
-"## Languages",
-"| Language | Problems |",
-"|---|---:|"
-]
+    (ROOT / "PROGRESS.md").write_text(md, encoding="utf-8")
 
-for l in sorted(languages):
-    lines.append(f"| {l} | {languages[l]} |")
+def build_master_readme(stats):
+    path = ROOT / "README.md"
 
-lines += [
-"",
-"## Topics",
-"| Topic | Problems |",
-"|---|---:|"
-]
+    old = read_text(path)
 
-for t,n in sorted(topics.items(),key=lambda x:(-x[1],x[0])):
-    lines.append(f"| {t} | {n} |")
+    marker = "<!-- AUTO-STATS-START -->"
+    end = "<!-- AUTO-STATS-END -->"
 
-(ROOT/"PROGRESS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
+    block = f"""
+{marker}
 
-print("="*60)
-print("LEETCODE MASTERY ENGINE COMPLETE")
-print("="*60)
-print("Problems :",len(problems))
-print("Languages:",dict(languages))
-print("Category :",dict(categories))
-print("Difficulty:",dict(difficulties))
-print("Topics   :",len(topics))
-print("Patterns :",len(patterns))
-print("Missing difficulty:",len(stats["missing_difficulty"]))
-print("Missing topics:",len(stats["missing_topics"]))
-print()
-print("Generated:")
-print("  10-Automation/data/problems.json")
-print("  10-Automation/data/statistics.json")
-print("  10-Automation/indexes/*")
-print("  */metadata.json")
-print("  PROGRESS.md")
+## 📈 Live Repository Statistics
+
+**Total solved:** {stats["total"]}
+
+| Metric | Count |
+|---|---:|
+| DSA | {stats["category"].get("DSA", 0)} |
+| SQL | {stats["category"].get("SQL", 0)} |
+| Easy | {stats["difficulty"].get("Easy", 0)} |
+| Medium | {stats["difficulty"].get("Medium", 0)} |
+| Hard | {stats["difficulty"].get("Hard", 0)} |
+
+### Languages
+
+"""
+
+    for lang, count in sorted(stats["language"].items(), key=lambda x: (-x[1], x[0])):
+        block += f"- **{lang}:** {count}\n"
+
+    block += f"""
+{end}
+"""
+
+    if marker in old and end in old:
+        old = re.sub(
+            re.escape(marker) + r".*?" + re.escape(end),
+            block.strip(),
+            old,
+            flags=re.S
+        )
+    else:
+        old += "\n" + block
+
+    path.write_text(old.rstrip() + "\n", encoding="utf-8")
+
+def main():
+    problems = discover()
+
+    dump(DATA / "problems.json", problems)
+
+    build_indexes(problems)
+    stats = build_statistics(problems)
+    build_progress(stats)
+    build_master_readme(stats)
+
+    print()
+    print("=" * 60)
+    print("        LEETCODE MASTERY BUILD COMPLETE")
+    print("=" * 60)
+    print(f"Problems          : {stats['total']}")
+    print(f"DSA               : {stats['category'].get('DSA', 0)}")
+    print(f"SQL               : {stats['category'].get('SQL', 0)}")
+    print(f"Easy              : {stats['difficulty'].get('Easy', 0)}")
+    print(f"Medium            : {stats['difficulty'].get('Medium', 0)}")
+    print(f"Hard              : {stats['difficulty'].get('Hard', 0)}")
+    print(f"Unknown Difficulty: {stats['difficulty'].get('Unknown', 0)}")
+    print()
+    print("Languages:")
+    for k, v in stats["language"].items():
+        print(f"  {k}: {v}")
+    print()
+    print(f"Topics detected   : {len(stats['topics'])}")
+    print(f"Patterns detected : {len(stats['patterns'])}")
+    print("=" * 60)
+
+if __name__ == "__main__":
+    main()

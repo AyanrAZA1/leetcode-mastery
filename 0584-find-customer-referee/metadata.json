@@ -1,7 +1,7 @@
 {
   "leetcode_id": 584,
   "title": "Find Customer Referee",
-  "slug": "0584-find-customer-referee",
+  "slug": "find-customer-referee",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
@@ -20,5 +20,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "0584-find-customer-referee.sql"
+  ]
 }

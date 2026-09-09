@@ -1,613 +1,209 @@
 {
-  "repository": "leetcode-mastery",
-  "stats": {
-    "total_files": 588,
-    "solution_files": 300,
-    "readme_files": 42,
-    "problem_directories": 68,
-    "topic_directories": 22,
-    "languages": {
-      "Java": 80,
-      "SQL": 6,
-      "C++": 72,
-      "Python": 72,
-      "JavaScript": 70
-    }
+  "problem_count": 28,
+  "extensions": {
+    ".java": 10,
+    ".json": 28,
+    ".md": 19,
+    ".sql": 6,
+    "[no extension]": 3,
+    ".cpp": 2
   },
   "problems": [
     {
-      "name": "0004-median-of-two-sorted-arrays",
-      "path": "0004-median-of-two-sorted-arrays",
-      "files": [
-        "0004-median-of-two-sorted-arrays.java",
-        "metadata.json",
-        "README.md"
-      ]
+      "id": "01",
+      "slug": "01-DSA",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0004-median-of-two-sorted-arrays",
-      "path": "0004-median-of-two-sorted-arrays",
-      "files": [
-        "0004-median-of-two-sorted-arrays.java",
-        "metadata.json",
-        "README.md"
-      ]
+      "id": "02",
+      "slug": "02-Algorithms",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0004-median-of-two-sorted-arrays",
-      "path": "0004-median-of-two-sorted-arrays",
-      "files": [
-        "0004-median-of-two-sorted-arrays.java",
-        "metadata.json",
-        "README.md"
-      ]
+      "id": "03",
+      "slug": "03-SQL",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0075-sort-colors",
-      "path": "0075-sort-colors",
-      "files": [
-        "metadata.json",
-        "0075-sort-colors.java",
-        "README.md"
-      ]
+      "id": "0004",
+      "slug": "0004-median-of-two-sorted-arrays",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "0075-sort-colors",
-      "path": "0075-sort-colors",
-      "files": [
-        "metadata.json",
-        "0075-sort-colors.java",
-        "README.md"
-      ]
+      "id": "04",
+      "slug": "04-Data-Structures",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0075-sort-colors",
-      "path": "0075-sort-colors",
-      "files": [
-        "metadata.json",
-        "0075-sort-colors.java",
-        "README.md"
-      ]
+      "id": "05",
+      "slug": "05-Patterns",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "10-Automation",
-      "path": "10-Automation",
-      "files": [
-        "metadata.json"
-      ]
+      "id": "06",
+      "slug": "06-Company-Wise",
+      "files": 2,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "1148-article-views-i",
-      "path": "1148-article-views-i",
-      "files": [
-        "metadata.json",
-        "1148-article-views-i.sql",
-        "README.md"
-      ]
+      "id": "07",
+      "slug": "07-Revision",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "1148-article-views-i",
-      "path": "1148-article-views-i",
-      "files": [
-        "metadata.json",
-        "1148-article-views-i.sql",
-        "README.md"
-      ]
+      "id": "08",
+      "slug": "08-Templates",
+      "files": 3,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "1148-article-views-i",
-      "path": "1148-article-views-i",
-      "files": [
-        "metadata.json",
-        "1148-article-views-i.sql",
-        "README.md"
-      ]
+      "id": "09",
+      "slug": "09-Statistics",
+      "files": 2,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0011-container-with-most-water",
-      "path": "0011-container-with-most-water",
-      "files": [
-        "metadata.json",
-        "0011-container-with-most-water.java",
-        "README.md"
-      ]
+      "id": "10",
+      "slug": "10-Automation",
+      "files": 1,
+      "has_readme": false,
+      "has_metadata": true
     },
     {
-      "name": "0011-container-with-most-water",
-      "path": "0011-container-with-most-water",
-      "files": [
-        "metadata.json",
-        "0011-container-with-most-water.java",
-        "README.md"
-      ]
+      "id": "0011",
+      "slug": "0011-container-with-most-water",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "0011-container-with-most-water",
-      "path": "0011-container-with-most-water",
-      "files": [
-        "metadata.json",
-        "0011-container-with-most-water.java",
-        "README.md"
-      ]
+      "id": "0016",
+      "slug": "0016-3sum-closest",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1470-shuffle-the-array",
-      "path": "1470-shuffle-the-array",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1470-shuffle-the-array.java"
-      ]
+      "id": "0075",
+      "slug": "0075-sort-colors",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1470-shuffle-the-array",
-      "path": "1470-shuffle-the-array",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1470-shuffle-the-array.java"
-      ]
+      "id": "0175",
+      "slug": "0175-combine-two-tables",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1470-shuffle-the-array",
-      "path": "1470-shuffle-the-array",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1470-shuffle-the-array.java"
-      ]
+      "id": "0584",
+      "slug": "0584-find-customer-referee",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
-      ]
+      "id": "0595",
+      "slug": "0595-big-countries",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
-      ]
+      "id": "1148",
+      "slug": "1148-article-views-i",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
-      ]
+      "id": "1281",
+      "slug": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "01-DSA",
-      "path": "01-DSA",
-      "files": [
-        "metadata.json"
-      ]
+      "id": "1470",
+      "slug": "1470-shuffle-the-array",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "07-Revision",
-      "path": "07-Revision",
-      "files": [
-        "metadata.json"
-      ]
+      "id": "1480",
+      "slug": "1480-running-sum-of-1d-array",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1920-build-array-from-permutation",
-      "path": "1920-build-array-from-permutation",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1920-build-array-from-permutation.java"
-      ]
+      "id": "1683",
+      "slug": "1683-invalid-tweets",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1920-build-array-from-permutation",
-      "path": "1920-build-array-from-permutation",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1920-build-array-from-permutation.java"
-      ]
+      "id": "1757",
+      "slug": "1757-recyclable-and-low-fat-products",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "1920-build-array-from-permutation",
-      "path": "1920-build-array-from-permutation",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "1920-build-array-from-permutation.java"
-      ]
+      "id": "1768",
+      "slug": "1768-merge-strings-alternately",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "09-Statistics",
-      "path": "09-Statistics",
-      "files": [
-        "metadata.json",
-        ".gitkeep"
-      ]
+      "id": "1920",
+      "slug": "1920-build-array-from-permutation",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "09-Statistics",
-      "path": "09-Statistics",
-      "files": [
-        "metadata.json",
-        ".gitkeep"
-      ]
+      "id": "1929",
+      "slug": "1929-concatenation-of-array",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "02-Algorithms",
-      "path": "02-Algorithms",
-      "files": [
-        "metadata.json"
-      ]
+      "id": "2278",
+      "slug": "2278-percentage-of-letter-in-string",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     },
     {
-      "name": "2520-count-the-digits-that-divide-a-number",
-      "path": "2520-count-the-digits-that-divide-a-number",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "2520-count-the-digits-that-divide-a-number.java"
-      ]
-    },
-    {
-      "name": "2520-count-the-digits-that-divide-a-number",
-      "path": "2520-count-the-digits-that-divide-a-number",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "2520-count-the-digits-that-divide-a-number.java"
-      ]
-    },
-    {
-      "name": "2520-count-the-digits-that-divide-a-number",
-      "path": "2520-count-the-digits-that-divide-a-number",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "2520-count-the-digits-that-divide-a-number.java"
-      ]
-    },
-    {
-      "name": "05-Patterns",
-      "path": "05-Patterns",
-      "files": [
-        "metadata.json"
-      ]
-    },
-    {
-      "name": "04-Data-Structures",
-      "path": "04-Data-Structures",
-      "files": [
-        "metadata.json"
-      ]
-    },
-    {
-      "name": "0595-big-countries",
-      "path": "0595-big-countries",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "0595-big-countries.sql"
-      ]
-    },
-    {
-      "name": "0595-big-countries",
-      "path": "0595-big-countries",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "0595-big-countries.sql"
-      ]
-    },
-    {
-      "name": "0595-big-countries",
-      "path": "0595-big-countries",
-      "files": [
-        "metadata.json",
-        "README.md",
-        "0595-big-countries.sql"
-      ]
-    },
-    {
-      "name": "1683-invalid-tweets",
-      "path": "1683-invalid-tweets",
-      "files": [
-        "metadata.json",
-        "1683-invalid-tweets.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1683-invalid-tweets",
-      "path": "1683-invalid-tweets",
-      "files": [
-        "metadata.json",
-        "1683-invalid-tweets.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1683-invalid-tweets",
-      "path": "1683-invalid-tweets",
-      "files": [
-        "metadata.json",
-        "1683-invalid-tweets.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1757-recyclable-and-low-fat-products",
-      "path": "1757-recyclable-and-low-fat-products",
-      "files": [
-        "metadata.json",
-        "1757-recyclable-and-low-fat-products.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1757-recyclable-and-low-fat-products",
-      "path": "1757-recyclable-and-low-fat-products",
-      "files": [
-        "metadata.json",
-        "1757-recyclable-and-low-fat-products.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1757-recyclable-and-low-fat-products",
-      "path": "1757-recyclable-and-low-fat-products",
-      "files": [
-        "metadata.json",
-        "1757-recyclable-and-low-fat-products.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "08-Templates",
-      "path": "08-Templates",
-      "files": [
-        "metadata.json",
-        ".gitkeep",
-        "PROBLEM_TEMPLATE.md"
-      ]
-    },
-    {
-      "name": "08-Templates",
-      "path": "08-Templates",
-      "files": [
-        "metadata.json",
-        ".gitkeep",
-        "PROBLEM_TEMPLATE.md"
-      ]
-    },
-    {
-      "name": "08-Templates",
-      "path": "08-Templates",
-      "files": [
-        "metadata.json",
-        ".gitkeep",
-        "PROBLEM_TEMPLATE.md"
-      ]
-    },
-    {
-      "name": "0016-3sum-closest",
-      "path": "0016-3sum-closest",
-      "files": [
-        "metadata.json",
-        "0016-3sum-closest.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0016-3sum-closest",
-      "path": "0016-3sum-closest",
-      "files": [
-        "metadata.json",
-        "0016-3sum-closest.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0016-3sum-closest",
-      "path": "0016-3sum-closest",
-      "files": [
-        "metadata.json",
-        "0016-3sum-closest.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "2278-percentage-of-letter-in-string",
-      "path": "2278-percentage-of-letter-in-string",
-      "files": [
-        "metadata.json",
-        "2278-percentage-of-letter-in-string.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "2278-percentage-of-letter-in-string",
-      "path": "2278-percentage-of-letter-in-string",
-      "files": [
-        "metadata.json",
-        "2278-percentage-of-letter-in-string.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "2278-percentage-of-letter-in-string",
-      "path": "2278-percentage-of-letter-in-string",
-      "files": [
-        "metadata.json",
-        "2278-percentage-of-letter-in-string.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1929-concatenation-of-array",
-      "path": "1929-concatenation-of-array",
-      "files": [
-        "metadata.json",
-        "1929-concatenation-of-array.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1929-concatenation-of-array",
-      "path": "1929-concatenation-of-array",
-      "files": [
-        "metadata.json",
-        "1929-concatenation-of-array.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1929-concatenation-of-array",
-      "path": "1929-concatenation-of-array",
-      "files": [
-        "metadata.json",
-        "1929-concatenation-of-array.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1768-merge-strings-alternately",
-      "path": "1768-merge-strings-alternately",
-      "files": [
-        "metadata.json",
-        "1768-merge-strings-alternately.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1768-merge-strings-alternately",
-      "path": "1768-merge-strings-alternately",
-      "files": [
-        "metadata.json",
-        "1768-merge-strings-alternately.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1768-merge-strings-alternately",
-      "path": "1768-merge-strings-alternately",
-      "files": [
-        "metadata.json",
-        "1768-merge-strings-alternately.java",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0175-combine-two-tables",
-      "path": "0175-combine-two-tables",
-      "files": [
-        "metadata.json",
-        "0175-combine-two-tables.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0175-combine-two-tables",
-      "path": "0175-combine-two-tables",
-      "files": [
-        "metadata.json",
-        "0175-combine-two-tables.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0175-combine-two-tables",
-      "path": "0175-combine-two-tables",
-      "files": [
-        "metadata.json",
-        "0175-combine-two-tables.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "06-Company-Wise",
-      "path": "06-Company-Wise",
-      "files": [
-        "metadata.json",
-        ".gitkeep"
-      ]
-    },
-    {
-      "name": "06-Company-Wise",
-      "path": "06-Company-Wise",
-      "files": [
-        "metadata.json",
-        ".gitkeep"
-      ]
-    },
-    {
-      "name": "1480-running-sum-of-1d-array",
-      "path": "1480-running-sum-of-1d-array",
-      "files": [
-        "metadata.json",
-        "1480-running-sum-of-1d-array.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1480-running-sum-of-1d-array",
-      "path": "1480-running-sum-of-1d-array",
-      "files": [
-        "metadata.json",
-        "1480-running-sum-of-1d-array.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "1480-running-sum-of-1d-array",
-      "path": "1480-running-sum-of-1d-array",
-      "files": [
-        "metadata.json",
-        "1480-running-sum-of-1d-array.cpp",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0584-find-customer-referee",
-      "path": "0584-find-customer-referee",
-      "files": [
-        "metadata.json",
-        "0584-find-customer-referee.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0584-find-customer-referee",
-      "path": "0584-find-customer-referee",
-      "files": [
-        "metadata.json",
-        "0584-find-customer-referee.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "0584-find-customer-referee",
-      "path": "0584-find-customer-referee",
-      "files": [
-        "metadata.json",
-        "0584-find-customer-referee.sql",
-        "README.md"
-      ]
-    },
-    {
-      "name": "03-SQL",
-      "path": "03-SQL",
-      "files": [
-        "metadata.json"
-      ]
+      "id": "2520",
+      "slug": "2520-count-the-digits-that-divide-a-number",
+      "files": 3,
+      "has_readme": true,
+      "has_metadata": true
     }
   ]
 }

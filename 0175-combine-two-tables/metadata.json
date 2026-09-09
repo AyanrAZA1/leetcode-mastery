@@ -1,7 +1,7 @@
 {
   "leetcode_id": 175,
   "title": "Combine Two Tables",
-  "slug": "0175-combine-two-tables",
+  "slug": "combine-two-tables",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
@@ -20,5 +20,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "0175-combine-two-tables.sql"
+  ]
 }

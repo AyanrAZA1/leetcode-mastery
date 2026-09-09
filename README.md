@@ -160,3 +160,27 @@ Progress & Revision
 | [String](Topics/string/) | 2 |
 | [Two Pointers](Topics/two-pointers/) | 4 |
 <!---LeetHub Summary End-->
+
+
+<!-- AUTO-STATS-START -->
+
+## 📈 Live Repository Statistics
+
+**Total solved:** 21
+
+| Metric | Count |
+|---|---:|
+| DSA | 15 |
+| SQL | 6 |
+| Easy | 14 |
+| Medium | 3 |
+| Hard | 1 |
+
+### Languages
+
+- **Java:** 10
+- **SQL:** 6
+- **Unknown:** 3
+- **C++:** 2
+
+<!-- AUTO-STATS-END -->

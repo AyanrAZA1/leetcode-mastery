@@ -1,26 +1,115 @@
 {
   "C++": [
-    16,
-    1480
+    {
+      "id": 16,
+      "slug": "3sum-closest",
+      "title": "3Sum Closest"
+    },
+    {
+      "id": 1480,
+      "slug": "running-sum-of-1d-array",
+      "title": "Running Sum Of 1D Array"
+    }
   ],
   "Java": [
-    4,
-    11,
-    75,
-    1281,
-    1470,
-    1768,
-    1920,
-    1929,
-    2278,
-    2520
+    {
+      "id": 4,
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median Of Two Sorted Arrays"
+    },
+    {
+      "id": 11,
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water"
+    },
+    {
+      "id": 75,
+      "slug": "sort-colors",
+      "title": "Sort Colors"
+    },
+    {
+      "id": 1281,
+      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+      "title": "Subtract The Product And Sum Of Digits Of An Integer"
+    },
+    {
+      "id": 1470,
+      "slug": "shuffle-the-array",
+      "title": "Shuffle The Array"
+    },
+    {
+      "id": 1768,
+      "slug": "merge-strings-alternately",
+      "title": "Merge Strings Alternately"
+    },
+    {
+      "id": 1920,
+      "slug": "build-array-from-permutation",
+      "title": "Build Array From Permutation"
+    },
+    {
+      "id": 1929,
+      "slug": "concatenation-of-array",
+      "title": "Concatenation Of Array"
+    },
+    {
+      "id": 2278,
+      "slug": "percentage-of-letter-in-string",
+      "title": "Percentage Of Letter In String"
+    },
+    {
+      "id": 2520,
+      "slug": "count-the-digits-that-divide-a-number",
+      "title": "Count The Digits That Divide A Number"
+    }
   ],
   "SQL": [
-    175,
-    584,
-    595,
-    1148,
-    1683,
-    1757
+    {
+      "id": 175,
+      "slug": "combine-two-tables",
+      "title": "Combine Two Tables"
+    },
+    {
+      "id": 584,
+      "slug": "find-customer-referee",
+      "title": "Find Customer Referee"
+    },
+    {
+      "id": 595,
+      "slug": "big-countries",
+      "title": "Big Countries"
+    },
+    {
+      "id": 1148,
+      "slug": "article-views-i",
+      "title": "Article Views I"
+    },
+    {
+      "id": 1683,
+      "slug": "invalid-tweets",
+      "title": "Invalid Tweets"
+    },
+    {
+      "id": 1757,
+      "slug": "recyclable-and-low-fat-products",
+      "title": "Recyclable And Low Fat Products"
+    }
+  ],
+  "Unknown": [
+    {
+      "id": 6,
+      "slug": "Company-Wise",
+      "title": "Company Wise"
+    },
+    {
+      "id": 8,
+      "slug": "Templates",
+      "title": "Templates"
+    },
+    {
+      "id": 9,
+      "slug": "Statistics",
+      "title": "Statistics"
+    }
   ]
 }

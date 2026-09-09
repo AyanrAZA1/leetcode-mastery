@@ -1,7 +1,7 @@
 {
   "leetcode_id": 1768,
   "title": "Merge Strings Alternately",
-  "slug": "1768-merge-strings-alternately",
+  "slug": "merge-strings-alternately",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
@@ -21,5 +21,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "1768-merge-strings-alternately.java"
+  ]
 }

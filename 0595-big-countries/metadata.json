@@ -1,7 +1,7 @@
 {
   "leetcode_id": 595,
   "title": "Big Countries",
-  "slug": "0595-big-countries",
+  "slug": "big-countries",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
@@ -22,5 +22,8 @@
     "time": null,
     "space": null
   },
-  "notes": ""
+  "notes": "",
+  "solution_files": [
+    "0595-big-countries.sql"
+  ]
 }
