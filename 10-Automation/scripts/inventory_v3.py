@@ -33,7 +33,7 @@ def read_json(path):
 def is_problem_folder(p):
     if not p.is_dir():
         return False
-    if not re.match(r"^\d{1,6}-.+", p.name):
+    if not re.match(r"^\d{4,6}-.+", p.name):
         return False
 
     return any(
