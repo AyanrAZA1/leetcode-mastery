@@ -1,0 +1,337 @@
+{
+  "repository": "leetcode-mastery",
+  "stats": {
+    "total_files": 558,
+    "solution_files": 299,
+    "readme_files": 42,
+    "problem_directories": 40,
+    "topic_directories": 22,
+    "languages": {
+      "Java": 80,
+      "SQL": 6,
+      "C++": 72,
+      "Python": 71,
+      "JavaScript": 70
+    }
+  },
+  "problems": [
+    {
+      "name": "0004-median-of-two-sorted-arrays",
+      "path": "0004-median-of-two-sorted-arrays",
+      "files": [
+        "0004-median-of-two-sorted-arrays.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0004-median-of-two-sorted-arrays",
+      "path": "0004-median-of-two-sorted-arrays",
+      "files": [
+        "0004-median-of-two-sorted-arrays.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0075-sort-colors",
+      "path": "0075-sort-colors",
+      "files": [
+        "0075-sort-colors.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0075-sort-colors",
+      "path": "0075-sort-colors",
+      "files": [
+        "0075-sort-colors.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1148-article-views-i",
+      "path": "1148-article-views-i",
+      "files": [
+        "1148-article-views-i.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1148-article-views-i",
+      "path": "1148-article-views-i",
+      "files": [
+        "1148-article-views-i.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0011-container-with-most-water",
+      "path": "0011-container-with-most-water",
+      "files": [
+        "0011-container-with-most-water.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0011-container-with-most-water",
+      "path": "0011-container-with-most-water",
+      "files": [
+        "0011-container-with-most-water.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1470-shuffle-the-array",
+      "path": "1470-shuffle-the-array",
+      "files": [
+        "README.md",
+        "1470-shuffle-the-array.java"
+      ]
+    },
+    {
+      "name": "1470-shuffle-the-array",
+      "path": "1470-shuffle-the-array",
+      "files": [
+        "README.md",
+        "1470-shuffle-the-array.java"
+      ]
+    },
+    {
+      "name": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "files": [
+        "README.md",
+        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
+      ]
+    },
+    {
+      "name": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "files": [
+        "README.md",
+        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
+      ]
+    },
+    {
+      "name": "1920-build-array-from-permutation",
+      "path": "1920-build-array-from-permutation",
+      "files": [
+        "README.md",
+        "1920-build-array-from-permutation.java"
+      ]
+    },
+    {
+      "name": "1920-build-array-from-permutation",
+      "path": "1920-build-array-from-permutation",
+      "files": [
+        "README.md",
+        "1920-build-array-from-permutation.java"
+      ]
+    },
+    {
+      "name": "09-Statistics",
+      "path": "09-Statistics",
+      "files": [
+        ".gitkeep"
+      ]
+    },
+    {
+      "name": "2520-count-the-digits-that-divide-a-number",
+      "path": "2520-count-the-digits-that-divide-a-number",
+      "files": [
+        "README.md",
+        "2520-count-the-digits-that-divide-a-number.java"
+      ]
+    },
+    {
+      "name": "2520-count-the-digits-that-divide-a-number",
+      "path": "2520-count-the-digits-that-divide-a-number",
+      "files": [
+        "README.md",
+        "2520-count-the-digits-that-divide-a-number.java"
+      ]
+    },
+    {
+      "name": "0595-big-countries",
+      "path": "0595-big-countries",
+      "files": [
+        "README.md",
+        "0595-big-countries.sql"
+      ]
+    },
+    {
+      "name": "0595-big-countries",
+      "path": "0595-big-countries",
+      "files": [
+        "README.md",
+        "0595-big-countries.sql"
+      ]
+    },
+    {
+      "name": "1683-invalid-tweets",
+      "path": "1683-invalid-tweets",
+      "files": [
+        "1683-invalid-tweets.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1683-invalid-tweets",
+      "path": "1683-invalid-tweets",
+      "files": [
+        "1683-invalid-tweets.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1757-recyclable-and-low-fat-products",
+      "path": "1757-recyclable-and-low-fat-products",
+      "files": [
+        "1757-recyclable-and-low-fat-products.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1757-recyclable-and-low-fat-products",
+      "path": "1757-recyclable-and-low-fat-products",
+      "files": [
+        "1757-recyclable-and-low-fat-products.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "08-Templates",
+      "path": "08-Templates",
+      "files": [
+        ".gitkeep",
+        "PROBLEM_TEMPLATE.md"
+      ]
+    },
+    {
+      "name": "08-Templates",
+      "path": "08-Templates",
+      "files": [
+        ".gitkeep",
+        "PROBLEM_TEMPLATE.md"
+      ]
+    },
+    {
+      "name": "0016-3sum-closest",
+      "path": "0016-3sum-closest",
+      "files": [
+        "0016-3sum-closest.cpp",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0016-3sum-closest",
+      "path": "0016-3sum-closest",
+      "files": [
+        "0016-3sum-closest.cpp",
+        "README.md"
+      ]
+    },
+    {
+      "name": "2278-percentage-of-letter-in-string",
+      "path": "2278-percentage-of-letter-in-string",
+      "files": [
+        "2278-percentage-of-letter-in-string.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "2278-percentage-of-letter-in-string",
+      "path": "2278-percentage-of-letter-in-string",
+      "files": [
+        "2278-percentage-of-letter-in-string.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1929-concatenation-of-array",
+      "path": "1929-concatenation-of-array",
+      "files": [
+        "1929-concatenation-of-array.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1929-concatenation-of-array",
+      "path": "1929-concatenation-of-array",
+      "files": [
+        "1929-concatenation-of-array.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1768-merge-strings-alternately",
+      "path": "1768-merge-strings-alternately",
+      "files": [
+        "1768-merge-strings-alternately.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1768-merge-strings-alternately",
+      "path": "1768-merge-strings-alternately",
+      "files": [
+        "1768-merge-strings-alternately.java",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0175-combine-two-tables",
+      "path": "0175-combine-two-tables",
+      "files": [
+        "0175-combine-two-tables.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0175-combine-two-tables",
+      "path": "0175-combine-two-tables",
+      "files": [
+        "0175-combine-two-tables.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "06-Company-Wise",
+      "path": "06-Company-Wise",
+      "files": [
+        ".gitkeep"
+      ]
+    },
+    {
+      "name": "1480-running-sum-of-1d-array",
+      "path": "1480-running-sum-of-1d-array",
+      "files": [
+        "1480-running-sum-of-1d-array.cpp",
+        "README.md"
+      ]
+    },
+    {
+      "name": "1480-running-sum-of-1d-array",
+      "path": "1480-running-sum-of-1d-array",
+      "files": [
+        "1480-running-sum-of-1d-array.cpp",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0584-find-customer-referee",
+      "path": "0584-find-customer-referee",
+      "files": [
+        "0584-find-customer-referee.sql",
+        "README.md"
+      ]
+    },
+    {
+      "name": "0584-find-customer-referee",
+      "path": "0584-find-customer-referee",
+      "files": [
+        "0584-find-customer-referee.sql",
+        "README.md"
+      ]
+    }
+  ]
+}
