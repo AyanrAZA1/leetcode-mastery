@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+*.class
+target/
+
+*.o
+*.out
+
+*.tmp
+*.swp
