@@ -1,0 +1,26 @@
+problem:
+  required:
+    - number
+    - title
+    - difficulty
+    - topics
+    - language
+
+  optional:
+    - pattern
+    - companies
+    - acceptance
+    - runtime
+    - memory
+    - revision
+    - notes
+
+difficulty:
+  - Easy
+  - Medium
+  - Hard
+
+languages:
+  - Java
+  - C++
+  - SQL

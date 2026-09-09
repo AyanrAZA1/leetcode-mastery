@@ -1,0 +1,38 @@
+repository:
+  name: leetcode-mastery
+  owner: AyanrAZA1
+
+languages:
+  - java
+  - cpp
+  - sql
+
+categories:
+  dsa:
+    path: 01-DSA
+
+  algorithms:
+    path: 02-Algorithms
+
+  sql:
+    path: 03-SQL
+
+  data_structures:
+    path: 04-Data-Structures
+
+  patterns:
+    path: 05-Patterns
+
+  companies:
+    path: 06-Company-Wise
+
+revision:
+  path: 07-Revision
+
+automation:
+  generate_problem_readme: true
+  update_progress: true
+  update_statistics: true
+  update_indexes: true
+  classify_by_difficulty: true
+  classify_by_topic: true
