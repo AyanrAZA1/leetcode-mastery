@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "topic": {
+    "slug": "string",
+    "name": "String"
+  },
+  "updatedAt": "2026-09-09T06:22:16.436Z",
+  "problems": [
+    {
+      "frontendId": "2278",
+      "title": "Percentage of Letter in String",
+      "slug": "percentage-of-letter-in-string",
+      "problemName": "2278-percentage-of-letter-in-string",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/percentage-of-letter-in-string/",
+      "folderPath": "2278-percentage-of-letter-in-string/",
+      "readmePath": "2278-percentage-of-letter-in-string/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "2278-percentage-of-letter-in-string.java",
+          "path": "2278-percentage-of-letter-in-string/2278-percentage-of-letter-in-string.java",
+          "sha": "ca23a144f5f7a726e3e623e058be33398ab8634d",
+          "lastSyncedAt": "2026-09-09T06:22:16.436Z"
+        }
+      ]
+    }
+  ]
+}
