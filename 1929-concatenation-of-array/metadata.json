@@ -1,12 +1,13 @@
 {
-  "leetcode_id": "1929",
+  "leetcode_id": 1929,
   "title": "Concatenation Of Array",
-  "slug": "1929-concatenation-of-array",
+  "slug": "concatenation-of-array",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
   "topics": [
-    "Array"
+    "Array",
+    "Simulation"
   ],
   "patterns": [],
   "companies": [],

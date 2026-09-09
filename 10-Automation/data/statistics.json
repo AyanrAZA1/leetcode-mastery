@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:24:29.197481+00:00",
+  "generated_at": "2026-09-09T09:35:40.263150+00:00",
   "total": 21,
   "difficulty": {
     "Hard": 1,
@@ -28,11 +28,14 @@
     "Binary Search": 1,
     "Divide and Conquer": 1,
     "Greedy": 1,
+    "Trie": 1,
     "Prefix Sum": 1
   },
   "patterns": {
     "Sorting": 3,
     "Dynamic Programming": 2,
+    "Two Pointers": 2,
+    "Trie": 1,
     "Prefix Sum": 1
   }
 }

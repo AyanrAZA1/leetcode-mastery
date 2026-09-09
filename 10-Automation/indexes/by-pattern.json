@@ -34,5 +34,24 @@
       "slug": "article-views-i",
       "title": "Article Views I"
     }
+  ],
+  "Trie": [
+    {
+      "id": 595,
+      "slug": "big-countries",
+      "title": "Big Countries"
+    }
+  ],
+  "Two Pointers": [
+    {
+      "id": 11,
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water"
+    },
+    {
+      "id": 16,
+      "slug": "3sum-closest",
+      "title": "3Sum Closest"
+    }
   ]
 }

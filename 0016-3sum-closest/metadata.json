@@ -1,12 +1,14 @@
 {
-  "leetcode_id": "0016",
+  "leetcode_id": 16,
   "title": "3Sum Closest",
-  "slug": "0016-3sum-closest",
+  "slug": "3sum-closest",
   "language": "C++",
   "category": "DSA",
   "difficulty": "Medium",
   "topics": [
-    "Array"
+    "Array",
+    "Sorting",
+    "Two Pointers"
   ],
   "patterns": [
     "Two Pointers"

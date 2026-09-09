@@ -1,12 +1,13 @@
 {
-  "leetcode_id": "1768",
+  "leetcode_id": 1768,
   "title": "Merge Strings Alternately",
-  "slug": "1768-merge-strings-alternately",
+  "slug": "merge-strings-alternately",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
   "topics": [
-    "String"
+    "String",
+    "Two Pointers"
   ],
   "patterns": [],
   "companies": [],

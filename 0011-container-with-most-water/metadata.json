@@ -1,16 +1,18 @@
 {
-  "leetcode_id": "0011",
+  "leetcode_id": 11,
   "title": "Container With Most Water",
-  "slug": "0011-container-with-most-water",
+  "slug": "container-with-most-water",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Medium",
   "topics": [
-    "Array"
+    "Array",
+    "Greedy",
+    "Two Pointers"
   ],
   "patterns": [
-    "Two Pointers",
-    "Dynamic Programming"
+    "Dynamic Programming",
+    "Two Pointers"
   ],
   "companies": [],
   "revision": {

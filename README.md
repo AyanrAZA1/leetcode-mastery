@@ -63,3 +63,27 @@ LeetCode
 ## Rule
 
 **Solve once → understand deeply → record pattern → revise → re-solve.**
+
+
+<!-- AUTO-STATS-START -->
+
+## 📈 Live Repository Statistics
+
+**Total solved:** 21
+
+| Metric | Count |
+|---|---:|
+| DSA | 15 |
+| SQL | 6 |
+| Easy | 14 |
+| Medium | 3 |
+| Hard | 1 |
+
+### Languages
+
+- **Java:** 10
+- **SQL:** 6
+- **Unknown:** 3
+- **C++:** 2
+
+<!-- AUTO-STATS-END -->

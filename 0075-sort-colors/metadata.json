@@ -1,14 +1,18 @@
 {
-  "leetcode_id": "0075",
+  "leetcode_id": 75,
   "title": "Sort Colors",
-  "slug": "0075-sort-colors",
+  "slug": "sort-colors",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Medium",
   "topics": [
-    "Array"
+    "Array",
+    "Sorting",
+    "Two Pointers"
   ],
-  "patterns": [],
+  "patterns": [
+    "Sorting"
+  ],
   "companies": [],
   "revision": {
     "status": "new",

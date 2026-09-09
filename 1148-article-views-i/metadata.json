@@ -1,12 +1,16 @@
 {
-  "leetcode_id": "1148",
+  "leetcode_id": 1148,
   "title": "Article Views I",
-  "slug": "1148-article-views-i",
+  "slug": "article-views-i",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
-  "topics": [],
-  "patterns": [],
+  "topics": [
+    "Database"
+  ],
+  "patterns": [
+    "Sorting"
+  ],
   "companies": [],
   "revision": {
     "status": "new",

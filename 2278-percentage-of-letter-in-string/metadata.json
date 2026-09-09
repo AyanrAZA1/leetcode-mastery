@@ -1,7 +1,7 @@
 {
-  "leetcode_id": "2278",
+  "leetcode_id": 2278,
   "title": "Percentage Of Letter In String",
-  "slug": "2278-percentage-of-letter-in-string",
+  "slug": "percentage-of-letter-in-string",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",

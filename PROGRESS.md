@@ -42,6 +42,7 @@
 | Binary Search | 1 |
 | Divide and Conquer | 1 |
 | Greedy | 1 |
+| Trie | 1 |
 | Prefix Sum | 1 |
 
 ## Top Patterns
@@ -50,4 +51,6 @@
 |---|---:|
 | Sorting | 3 |
 | Dynamic Programming | 2 |
+| Two Pointers | 2 |
+| Trie | 1 |
 | Prefix Sum | 1 |

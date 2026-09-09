@@ -1,11 +1,13 @@
 {
-  "leetcode_id": "0175",
+  "leetcode_id": 175,
   "title": "Combine Two Tables",
-  "slug": "0175-combine-two-tables",
+  "slug": "combine-two-tables",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
-  "topics": [],
+  "topics": [
+    "Database"
+  ],
   "patterns": [],
   "companies": [],
   "revision": {
