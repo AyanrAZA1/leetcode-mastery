@@ -1,0 +1,262 @@
+{
+  "total": 18,
+  "problems": [
+    {
+      "id": "0004",
+      "title": "Median Of Two Sorted Arrays",
+      "slug": "0004-median-of-two-sorted-arrays",
+      "difficulty": "Hard",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0011",
+      "title": "Container With Most Water",
+      "slug": "0011-container-with-most-water",
+      "difficulty": "Medium",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [
+        "Two Pointers",
+        "Dynamic Programming"
+      ],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0016",
+      "title": "3Sum Closest",
+      "slug": "0016-3sum-closest",
+      "difficulty": "Medium",
+      "category": "DSA",
+      "language": "C++",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0075",
+      "title": "Sort Colors",
+      "slug": "0075-sort-colors",
+      "difficulty": "Medium",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0175",
+      "title": "Combine Two Tables",
+      "slug": "0175-combine-two-tables",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0584",
+      "title": "Find Customer Referee",
+      "slug": "0584-find-customer-referee",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "0595",
+      "title": "Big Countries",
+      "slug": "0595-big-countries",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Trie",
+      "topics": [
+        "Trie"
+      ],
+      "patterns": [
+        "Trie",
+        "Dynamic Programming"
+      ],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1148",
+      "title": "Article Views I",
+      "slug": "1148-article-views-i",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1281",
+      "title": "Subtract The Product And Sum Of Digits Of An Integer",
+      "slug": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1470",
+      "title": "Shuffle The Array",
+      "slug": "1470-shuffle-the-array",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1480",
+      "title": "Running Sum Of 1D Array",
+      "slug": "1480-running-sum-of-1d-array",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "C++",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [
+        "Prefix Sum"
+      ],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1683",
+      "title": "Invalid Tweets",
+      "slug": "1683-invalid-tweets",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1757",
+      "title": "Recyclable And Low Fat Products",
+      "slug": "1757-recyclable-and-low-fat-products",
+      "difficulty": "Easy",
+      "category": "SQL",
+      "language": "SQL",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1768",
+      "title": "Merge Strings Alternately",
+      "slug": "1768-merge-strings-alternately",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "String"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1920",
+      "title": "Build Array From Permutation",
+      "slug": "1920-build-array-from-permutation",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "1929",
+      "title": "Concatenation Of Array",
+      "slug": "1929-concatenation-of-array",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "2278",
+      "title": "Percentage Of Letter In String",
+      "slug": "2278-percentage-of-letter-in-string",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [
+        "String"
+      ],
+      "patterns": [],
+      "sql_type": "Unknown"
+    },
+    {
+      "id": "2520",
+      "title": "Count The Digits That Divide A Number",
+      "slug": "2520-count-the-digits-that-divide-a-number",
+      "difficulty": "Easy",
+      "category": "DSA",
+      "language": "Java",
+      "algorithm": "Unknown",
+      "topics": [],
+      "patterns": [],
+      "sql_type": "Unknown"
+    }
+  ],
+  "difficulty": {
+    "Hard": 1,
+    "Medium": 3,
+    "Easy": 14
+  },
+  "category": {
+    "DSA": 12,
+    "SQL": 6
+  }
+}
