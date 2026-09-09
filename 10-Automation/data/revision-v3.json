@@ -10,6 +10,390 @@
     30,
     60
   ],
-  "total_problems": 0,
-  "problems": []
+  "total_problems": 19,
+  "problems": [
+    {
+      "id": "4",
+      "title": "Median Of Two Sorted Arrays",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "patterns": [
+        "Binary Search"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "8",
+      "title": "Templates",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "11",
+      "title": "Container With Most Water",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Greedy",
+        "Two Pointers"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "16",
+      "title": "3Sum Closest",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "75",
+      "title": "Sort Colors",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "175",
+      "title": "Combine Two Tables",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "584",
+      "title": "Find Customer Referee",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "595",
+      "title": "Big Countries",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1148",
+      "title": "Article Views I",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1281",
+      "title": "Subtract The Product And Sum Of Digits Of An Integer",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Math"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1470",
+      "title": "Shuffle The Array",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1480",
+      "title": "Running Sum Of 1D Array",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "patterns": [
+        "Prefix Sum"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1683",
+      "title": "Invalid Tweets",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1757",
+      "title": "Recyclable And Low Fat Products",
+      "difficulty": "Unknown",
+      "category": "SQL",
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1768",
+      "title": "Merge Strings Alternately",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "String",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1920",
+      "title": "Build Array From Permutation",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "1929",
+      "title": "Concatenation Of Array",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "2278",
+      "title": "Percentage Of Letter In String",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "String"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    },
+    {
+      "id": "2520",
+      "title": "Count The Digits That Divide A Number",
+      "difficulty": "Unknown",
+      "category": "DSA",
+      "topics": [
+        "Math"
+      ],
+      "patterns": [],
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_count": 0,
+      "revision_level": 0,
+      "notes": ""
+    }
+  ]
 }

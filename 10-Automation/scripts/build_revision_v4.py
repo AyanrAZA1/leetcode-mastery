@@ -30,13 +30,18 @@ def problem_id(p):
         or ""
     )
 
-problems = load_json(INPUT, [])
+raw_problems = load_json(INPUT, [])
 old_data = load_json(OLD, [])
+
+if isinstance(raw_problems, dict):
+    problems = raw_problems.get("problems", raw_problems.get("records", []))
+else:
+    problems = raw_problems if isinstance(raw_problems, list) else []
 
 if isinstance(old_data, dict):
     old_records = old_data.get("problems", old_data.get("records", []))
 else:
-    old_records = old_data
+    old_records = old_data if isinstance(old_data, list) else []
 
 old_map = {
     problem_id(x): x
