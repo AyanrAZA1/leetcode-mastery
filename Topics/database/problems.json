@@ -4,8 +4,28 @@
     "slug": "database",
     "name": "Database"
   },
-  "updatedAt": "2026-09-09T06:20:49.085Z",
+  "updatedAt": "2026-09-09T06:21:11.830Z",
   "problems": [
+    {
+      "frontendId": "1148",
+      "title": "Article Views I",
+      "slug": "article-views-i",
+      "problemName": "1148-article-views-i",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/article-views-i/",
+      "folderPath": "1148-article-views-i/",
+      "readmePath": "1148-article-views-i/README.md",
+      "solutions": [
+        {
+          "language": "PostgreSQL",
+          "extension": ".sql",
+          "filename": "1148-article-views-i.sql",
+          "path": "1148-article-views-i/1148-article-views-i.sql",
+          "sha": "f9fab3f810bc23ffd9aeef7c4d18e501636e0189",
+          "lastSyncedAt": "2026-09-09T06:21:11.830Z"
+        }
+      ]
+    },
     {
       "frontendId": "1683",
       "title": "Invalid Tweets",
