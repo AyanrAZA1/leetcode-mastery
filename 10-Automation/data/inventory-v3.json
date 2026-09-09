@@ -123,8 +123,8 @@
       ],
       "solution_files": [
         "SQL_TEMPLATE.sql",
-        "JAVA_TEMPLATE.java",
-        "CPP_TEMPLATE.cpp"
+        "CPP_TEMPLATE.cpp",
+        "JAVA_TEMPLATE.java"
       ],
       "has_readme": false,
       "file_count": 3
