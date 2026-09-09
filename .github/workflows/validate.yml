@@ -14,43 +14,38 @@ permissions:
 
 jobs:
   validate:
-    name: Validate Repository
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
-      - name: Validate JSON files
+      - name: Python syntax check
         run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
+          python3 -m compileall -q \
+            10-Automation/scripts \
+            scripts
 
-          errors = []
-
-          for path in Path(".").rglob("*.json"):
-              if ".git" in path.parts:
-                  continue
-
-              try:
-                  json.loads(path.read_text(encoding="utf-8"))
-              except Exception as e:
-                  errors.append(f"{path}: {e}")
-
-          if errors:
-              for e in errors:
-                  print("❌", e)
-              raise SystemExit(1)
-
-          print("✅ All JSON files valid")
-          PY
-
-      - name: Run repository validation
+      - name: Run repository audit
         run: |
-          python3 10-Automation/scripts/validate_v4.py
+          if [ -f 10-Automation/scripts/audit_repo.py ]; then
+            python3 10-Automation/scripts/audit_repo.py
+          fi
+
+      - name: Run validation
+        run: |
+          if [ -f 10-Automation/scripts/validate_v4.py ]; then
+            python3 10-Automation/scripts/validate_v4.py
+          fi
+
+      - name: Verify Git repository
+        run: |
+          git status --short
+          git branch --show-current

@@ -1,18 +1,18 @@
 {
   "version": "3.0",
   "source": "inventory-v3 + Topics/*/problems.json",
-  "total": 18,
+  "total": 19,
   "statistics": {
     "difficulty": {
-      "Unknown": 18
+      "Unknown": 19
     },
     "languages": {
-      "C++": 2,
+      "C++": 3,
       "Java": 10,
       "SQL": 6
     },
     "categories": {
-      "DSA": 12,
+      "DSA": 13,
       "SQL": 6
     },
     "topics": {
@@ -59,6 +59,36 @@
         "Binary Search"
       ],
       "primary_language": "Java",
+      "revision": {
+        "must_revise": false,
+        "important": false,
+        "mistake_count": 0,
+        "confidence": 0,
+        "last_reviewed": null,
+        "next_review": null
+      }
+    },
+    {
+      "id": 8,
+      "slug": "08-Templates",
+      "title": "Templates",
+      "path": "08-Templates",
+      "languages": [
+        "C++",
+        "Java",
+        "SQL"
+      ],
+      "solution_files": [
+        "SQL_TEMPLATE.sql",
+        "JAVA_TEMPLATE.java",
+        "CPP_TEMPLATE.cpp"
+      ],
+      "has_readme": false,
+      "file_count": 3,
+      "category": "DSA",
+      "topics": [],
+      "patterns": [],
+      "primary_language": "C++",
       "revision": {
         "must_revise": false,
         "important": false,

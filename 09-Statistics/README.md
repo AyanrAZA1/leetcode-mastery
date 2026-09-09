@@ -1,12 +1,30 @@
-# 📈 Statistics Dashboard
+# 📈 Statistics
 
-This folder stores:
+This directory contains automatically generated LeetCode mastery statistics.
 
-- Progress
-- Daily solved count
-- Difficulty distribution
-- Topic distribution
-- Language statistics
-- Revision statistics
+## Generated Data
 
-Generated automatically.
+- `PROGRESS.json` — current problem inventory and language/difficulty statistics
+- `MASTER_DASHBOARD.md` — mastery dashboard
+- other generated statistics maintained by the automation pipeline
+
+## Pipeline
+
+```text
+LeetCode
+   ↓
+LeetHub-Neo
+   ↓
+GitHub
+   ↓
+Inventory
+   ↓
+Classification
+   ↓
+Revision
+   ↓
+Dashboard
+   ↓
+Progress
+   ↓
+Validation

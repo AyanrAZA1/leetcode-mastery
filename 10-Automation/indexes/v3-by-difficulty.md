@@ -1,10 +1,11 @@
 # Problems by Difficulty
 
-> Generated automatically from 18 problems.
+> Generated automatically from 19 problems.
 
 ## Unknown
 
 - [4 — Median Of Two Sorted Arrays](../../0004-median-of-two-sorted-arrays/)
+- [8 — Templates](../../08-Templates/)
 - [11 — Container With Most Water](../../0011-container-with-most-water/)
 - [16 — 3Sum Closest](../../0016-3sum-closest/)
 - [75 — Sort Colors](../../0075-sort-colors/)

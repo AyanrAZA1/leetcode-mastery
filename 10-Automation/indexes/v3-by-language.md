@@ -1,9 +1,10 @@
 # Problems by Language
 
-> Generated automatically from 18 problems.
+> Generated automatically from 19 problems.
 
 ## C++
 
+- [8 — Templates](../../08-Templates/)
 - [16 — 3Sum Closest](../../0016-3sum-closest/)
 - [1480 — Running Sum Of 1D Array](../../1480-running-sum-of-1d-array/)
 

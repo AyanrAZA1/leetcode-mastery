@@ -1,27 +1,27 @@
 # 📊 LeetCode Mastery Dashboard
 
-**Total Solved:** 18
+**Total Solved:** 19
 
 ## Categories
 
 | Category | Count |
 |---|---:|
-| DSA | 12 |
+| DSA | 13 |
 | SQL | 6 |
 
 ## Difficulty
 
 | Difficulty | Count |
 |---|---:|
-| Unknown | 18 |
+| Unknown | 19 |
 
 ## Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 2 |
-| Java | 10 |
-| SQL | 6 |
+| C++ | 3 |
+| Java | 11 |
+| SQL | 7 |
 
 ## Top Topics
 

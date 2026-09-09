@@ -1,6 +1,6 @@
 # Problems by Topic
 
-> Generated automatically from 18 problems.
+> Generated automatically from 19 problems.
 
 ## Array
 

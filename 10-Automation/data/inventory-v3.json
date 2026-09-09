@@ -1,14 +1,16 @@
 {
-  "total_problem_folders": 18,
-  "unique_problem_ids": 18,
+  "total_problem_folders": 19,
+  "unique_problem_ids": 19,
   "duplicate_ids": {},
-  "missing_readme": [],
+  "missing_readme": [
+    "08-Templates"
+  ],
   "missing_solution": [],
   "unknown_id": [],
   "languages": {
-    "Java": 10,
-    "C++": 2,
-    "SQL": 6
+    "Java": 11,
+    "C++": 3,
+    "SQL": 7
   },
   "problems": [
     {
@@ -108,6 +110,24 @@
       ],
       "has_readme": true,
       "file_count": 1
+    },
+    {
+      "id": 8,
+      "slug": "08-Templates",
+      "title": "Templates",
+      "path": "08-Templates",
+      "languages": [
+        "C++",
+        "Java",
+        "SQL"
+      ],
+      "solution_files": [
+        "SQL_TEMPLATE.sql",
+        "JAVA_TEMPLATE.java",
+        "CPP_TEMPLATE.cpp"
+      ],
+      "has_readme": false,
+      "file_count": 3
     },
     {
       "id": 1148,
