@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 
-PROBLEM_RE = re.compile(r"^\d{1,6}-.+")
+PROBLEM_RE = re.compile(r"^\d{4,6}-.+")
 SOLUTION_EXT = {
     ".java", ".cpp", ".c", ".py", ".js", ".ts",
     ".go", ".rs", ".kt", ".swift", ".rb", ".php", ".sql"

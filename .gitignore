@@ -11,3 +11,7 @@ target/
 
 *.tmp
 *.swp
+
+# Python
+__pycache__/
+*.py[cod]
