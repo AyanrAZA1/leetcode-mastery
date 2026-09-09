@@ -4,8 +4,28 @@
     "slug": "string",
     "name": "String"
   },
-  "updatedAt": "2026-09-09T06:22:16.436Z",
+  "updatedAt": "2026-09-09T06:22:39.275Z",
   "problems": [
+    {
+      "frontendId": "1768",
+      "title": "Merge Strings Alternately",
+      "slug": "merge-strings-alternately",
+      "problemName": "1768-merge-strings-alternately",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/merge-strings-alternately/",
+      "folderPath": "1768-merge-strings-alternately/",
+      "readmePath": "1768-merge-strings-alternately/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "1768-merge-strings-alternately.java",
+          "path": "1768-merge-strings-alternately/1768-merge-strings-alternately.java",
+          "sha": "7cc0bec0d194677620ef7359f2e2f7957a75ca90",
+          "lastSyncedAt": "2026-09-09T06:22:39.275Z"
+        }
+      ]
+    },
     {
       "frontendId": "2278",
       "title": "Percentage of Letter in String",
