@@ -1,8 +1,9 @@
 {
   "leetcode_id": 2,
+  "title": "Algorithms",
   "slug": "02-Algorithms",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

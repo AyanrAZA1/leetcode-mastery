@@ -1,8 +1,9 @@
 {
   "leetcode_id": 8,
+  "title": "Templates",
   "slug": "08-Templates",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

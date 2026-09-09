@@ -1,8 +1,9 @@
 {
   "leetcode_id": 9,
+  "title": "Statistics",
   "slug": "09-Statistics",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

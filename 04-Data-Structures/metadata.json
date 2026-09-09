@@ -1,8 +1,9 @@
 {
   "leetcode_id": 4,
+  "title": "Data Structures",
   "slug": "04-Data-Structures",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

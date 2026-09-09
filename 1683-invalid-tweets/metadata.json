@@ -1,10 +1,13 @@
 {
   "leetcode_id": 1683,
+  "title": "Invalid Tweets",
   "slug": "1683-invalid-tweets",
   "language": "SQL",
   "category": "SQL",
-  "difficulty": null,
-  "topics": [],
+  "difficulty": "Easy",
+  "topics": [
+    "Database"
+  ],
   "patterns": [],
   "companies": [],
   "revision": {

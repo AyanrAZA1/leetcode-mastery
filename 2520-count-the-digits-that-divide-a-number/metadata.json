@@ -1,10 +1,13 @@
 {
   "leetcode_id": 2520,
+  "title": "Count The Digits That Divide A Number",
   "slug": "2520-count-the-digits-that-divide-a-number",
   "language": "Java",
   "category": "DSA",
-  "difficulty": null,
-  "topics": [],
+  "difficulty": "Easy",
+  "topics": [
+    "Math"
+  ],
   "patterns": [],
   "companies": [],
   "revision": {

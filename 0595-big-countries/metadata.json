@@ -1,11 +1,16 @@
 {
   "leetcode_id": 595,
+  "title": "Big Countries",
   "slug": "0595-big-countries",
   "language": "SQL",
   "category": "SQL",
-  "difficulty": null,
-  "topics": [],
-  "patterns": [],
+  "difficulty": "Easy",
+  "topics": [
+    "Database"
+  ],
+  "patterns": [
+    "Dynamic Programming"
+  ],
   "companies": [],
   "revision": {
     "status": "new",

@@ -1,10 +1,14 @@
 {
   "leetcode_id": 1920,
+  "title": "Build Array From Permutation",
   "slug": "1920-build-array-from-permutation",
   "language": "Java",
   "category": "DSA",
-  "difficulty": null,
-  "topics": [],
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Simulation"
+  ],
   "patterns": [],
   "companies": [],
   "revision": {

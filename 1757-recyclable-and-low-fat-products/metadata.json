@@ -1,10 +1,13 @@
 {
   "leetcode_id": 1757,
+  "title": "Recyclable And Low Fat Products",
   "slug": "1757-recyclable-and-low-fat-products",
   "language": "SQL",
   "category": "SQL",
-  "difficulty": null,
-  "topics": [],
+  "difficulty": "Easy",
+  "topics": [
+    "Database"
+  ],
   "patterns": [],
   "companies": [],
   "revision": {

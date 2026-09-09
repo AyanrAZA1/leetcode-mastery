@@ -1,8 +1,9 @@
 {
   "leetcode_id": 1,
+  "title": "Dsa",
   "slug": "01-DSA",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

@@ -1,8 +1,9 @@
 {
   "leetcode_id": 5,
+  "title": "Patterns",
   "slug": "05-Patterns",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

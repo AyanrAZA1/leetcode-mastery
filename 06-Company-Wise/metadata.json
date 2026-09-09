@@ -1,8 +1,9 @@
 {
   "leetcode_id": 6,
+  "title": "Company Wise",
   "slug": "06-Company-Wise",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

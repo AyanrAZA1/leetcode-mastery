@@ -1,8 +1,9 @@
 {
   "leetcode_id": 3,
+  "title": "Sql",
   "slug": "03-SQL",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

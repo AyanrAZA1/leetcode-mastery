@@ -1,8 +1,9 @@
 {
   "leetcode_id": 10,
+  "title": "Automation",
   "slug": "10-Automation",
   "language": null,
-  "category": null,
+  "category": "DSA",
   "difficulty": null,
   "topics": [],
   "patterns": [],

@@ -1,0 +1,57 @@
+{
+  "total_problems": 28,
+  "categories": {
+    "DSA": 22,
+    "SQL": 6
+  },
+  "languages": {
+    "Java": 10,
+    "C++": 2,
+    "SQL": 6
+  },
+  "difficulty": {
+    "Hard": 1,
+    "Medium": 3,
+    "Easy": 14
+  },
+  "topics": {
+    "Array": 8,
+    "Binary Search": 1,
+    "Divide and Conquer": 1,
+    "Greedy": 1,
+    "Two Pointers": 4,
+    "Sorting": 2,
+    "Database": 6,
+    "Math": 2,
+    "Prefix Sum": 1,
+    "String": 2,
+    "Simulation": 2
+  },
+  "patterns": {
+    "Dynamic Programming": 2
+  },
+  "missing_difficulty": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "missing_topics": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+}
