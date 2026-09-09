@@ -4,8 +4,28 @@
     "slug": "database",
     "name": "Database"
   },
-  "updatedAt": "2026-09-09T06:21:29.056Z",
+  "updatedAt": "2026-09-09T06:21:36.324Z",
   "problems": [
+    {
+      "frontendId": "175",
+      "title": "Combine Two Tables",
+      "slug": "combine-two-tables",
+      "problemName": "0175-combine-two-tables",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/combine-two-tables/",
+      "folderPath": "0175-combine-two-tables/",
+      "readmePath": "0175-combine-two-tables/README.md",
+      "solutions": [
+        {
+          "language": "PostgreSQL",
+          "extension": ".sql",
+          "filename": "0175-combine-two-tables.sql",
+          "path": "0175-combine-two-tables/0175-combine-two-tables.sql",
+          "sha": "b12bdcd2f930bd19d45396d050611f1456b79a0b",
+          "lastSyncedAt": "2026-09-09T06:21:36.324Z"
+        }
+      ]
+    },
     {
       "frontendId": "584",
       "title": "Find Customer Referee",
