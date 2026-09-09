@@ -4,8 +4,28 @@
     "slug": "math",
     "name": "Math"
   },
-  "updatedAt": "2026-09-09T06:22:24.832Z",
+  "updatedAt": "2026-09-09T06:22:33.130Z",
   "problems": [
+    {
+      "frontendId": "1281",
+      "title": "Subtract the Product and Sum of Digits of an Integer",
+      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+      "problemName": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/",
+      "folderPath": "1281-subtract-the-product-and-sum-of-digits-of-an-integer/",
+      "readmePath": "1281-subtract-the-product-and-sum-of-digits-of-an-integer/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java",
+          "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.java",
+          "sha": "cd5e87dc9ebeaf39e82ee1b0ac12dffe3d022c28",
+          "lastSyncedAt": "2026-09-09T06:22:33.130Z"
+        }
+      ]
+    },
     {
       "frontendId": "2520",
       "title": "Count the Digits That Divide a Number",
