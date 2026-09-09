@@ -1,19 +1,12 @@
-# Company-Wise Interview Preparation
+# Company-wise Interview
 
-Planned company indexes:
+Company mappings will be added only when backed by a verified question source.
 
-- Google
-- Amazon
-- Microsoft
-- Meta
-- Apple
-- Netflix
-- Adobe
-- Uber
-- Atlassian
-- Bloomberg
-- Goldman Sachs
-- JPMorgan
-- Walmart
+Suggested structure:
 
-Problem membership should be based on a verified source before being treated as authoritative.
+```text
+Company/
+├── README.md
+├── Frequently-Asked.md
+├── DSA.md
+└── SQL.md

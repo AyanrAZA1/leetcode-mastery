@@ -1,11 +1,5 @@
 # Top Interview 150
 
-Interview preparation roadmap.
+Canonical Top Interview 150 mapping will be populated from a verified list.
 
-Track:
-
-- [ ] Solved
-- [ ] Understood
-- [ ] Re-solved
-- [ ] Added revision notes
-- [ ] Interview ready
+> Do not manually guess membership.

@@ -1,13 +1,14 @@
 # Blind 75
 
-Interview preparation roadmap.
+Canonical Blind 75 mapping will be populated only from a verified problem list.
 
-Use:
+## Status
 
-- [ ] Easy
-- [ ] Medium
-- [ ] Hard
-- [ ] Revision
-- [ ] Re-solve without looking
-
-Problem membership should be populated from a verified problem list before being marked complete.
+- [ ] Array
+- [ ] Binary
+- [ ] Linked List
+- [ ] Trees
+- [ ] Graph
+- [ ] Dynamic Programming
+- [ ] Intervals
+- [ ] Strings

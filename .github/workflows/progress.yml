@@ -1,0 +1,33 @@
+name: Update Progress
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python scripts/update_progress.py
+
+      - name: Commit Progress
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add PROGRESS.md
+
+          git diff --cached --quiet || (
+            git commit -m "🤖 Auto update progress"
+            git push
+          )

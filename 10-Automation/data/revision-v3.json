@@ -1,0 +1,561 @@
+{
+  "version": "3.0",
+  "description": "Revision and spaced-repetition system",
+  "intervals_days": [
+    1,
+    3,
+    7,
+    14,
+    30,
+    60
+  ],
+  "total_problems": 18,
+  "problems": [
+    {
+      "id": 4,
+      "title": "Median Of Two Sorted Arrays",
+      "slug": "0004-median-of-two-sorted-arrays",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "patterns": [
+        "Binary Search"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Container With Most Water",
+      "slug": "0011-container-with-most-water",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array",
+        "Greedy",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Greedy",
+        "Two Pointers"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 16,
+      "title": "3Sum Closest",
+      "slug": "0016-3sum-closest",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "C++"
+      ],
+      "topics": [
+        "Array",
+        "Sorting",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Sort Colors",
+      "slug": "0075-sort-colors",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Combine Two Tables",
+      "slug": "0175-combine-two-tables",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 584,
+      "title": "Find Customer Referee",
+      "slug": "0584-find-customer-referee",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 595,
+      "title": "Big Countries",
+      "slug": "0595-big-countries",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1148,
+      "title": "Article Views I",
+      "slug": "1148-article-views-i",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1281,
+      "title": "Subtract The Product And Sum Of Digits Of An Integer",
+      "slug": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Math"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1470,
+      "title": "Shuffle The Array",
+      "slug": "1470-shuffle-the-array",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1480,
+      "title": "Running Sum Of 1D Array",
+      "slug": "1480-running-sum-of-1d-array",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "C++"
+      ],
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "patterns": [
+        "Prefix Sum"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1683,
+      "title": "Invalid Tweets",
+      "slug": "1683-invalid-tweets",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1757,
+      "title": "Recyclable And Low Fat Products",
+      "slug": "1757-recyclable-and-low-fat-products",
+      "category": "SQL",
+      "difficulty": "Unknown",
+      "languages": [
+        "SQL"
+      ],
+      "topics": [
+        "Database / SQL"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1768,
+      "title": "Merge Strings Alternately",
+      "slug": "1768-merge-strings-alternately",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "String",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Two Pointers"
+      ],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1920,
+      "title": "Build Array From Permutation",
+      "slug": "1920-build-array-from-permutation",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 1929,
+      "title": "Concatenation Of Array",
+      "slug": "1929-concatenation-of-array",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 2278,
+      "title": "Percentage Of Letter In String",
+      "slug": "2278-percentage-of-letter-in-string",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "String"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    },
+    {
+      "id": 2520,
+      "title": "Count The Digits That Divide A Number",
+      "slug": "2520-count-the-digits-that-divide-a-number",
+      "category": "DSA",
+      "difficulty": "Unknown",
+      "languages": [
+        "Java"
+      ],
+      "topics": [
+        "Math"
+      ],
+      "patterns": [],
+      "status": "solved",
+      "must_revise": false,
+      "important": false,
+      "mistake_count": 0,
+      "confidence": 0,
+      "last_reviewed": null,
+      "next_review": null,
+      "review_intervals_days": [
+        1,
+        3,
+        7,
+        14,
+        30,
+        60
+      ]
+    }
+  ]
+}

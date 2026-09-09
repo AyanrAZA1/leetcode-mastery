@@ -7,17 +7,50 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   validate:
+    name: Validate Repository
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate repository
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate JSON files
         run: |
-          echo "Repository structure:"
-          find . -maxdepth 2 -type d | sort
-          echo "Validation completed."
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          errors = []
+
+          for path in Path(".").rglob("*.json"):
+              if ".git" in path.parts:
+                  continue
+
+              try:
+                  json.loads(path.read_text(encoding="utf-8"))
+              except Exception as e:
+                  errors.append(f"{path}: {e}")
+
+          if errors:
+              for e in errors:
+                  print("❌", e)
+              raise SystemExit(1)
+
+          print("✅ All JSON files valid")
+          PY
+
+      - name: Run repository validation
+        run: |
+          python3 10-Automation/scripts/validate_v4.py

@@ -1,20 +1,19 @@
-# SQL Interview Roadmap
+# SQL Interview
 
-Core SQL areas:
+## Core Areas
 
 - SELECT / WHERE
-- ORDER BY
+- JOIN
 - GROUP BY
 - HAVING
-- JOIN
 - Subqueries
 - CTE
-- Aggregation
 - Window Functions
-- CASE
-- Date / Time
-- String Functions
+- Aggregation
 - NULL handling
-- Set Operations
-- Ranking
-- Advanced SQL
+- Date functions
+- String functions
+- CASE
+- EXISTS
+- UNION
+- Query optimization
