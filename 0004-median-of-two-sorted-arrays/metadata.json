@@ -1,18 +1,14 @@
 {
-  "leetcode_id": 4,
+  "leetcode_id": "0004",
   "title": "Median Of Two Sorted Arrays",
-  "slug": "median-of-two-sorted-arrays",
+  "slug": "0004-median-of-two-sorted-arrays",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Hard",
   "topics": [
-    "Array",
-    "Binary Search",
-    "Divide and Conquer"
+    "Array"
   ],
-  "patterns": [
-    "Sorting"
-  ],
+  "patterns": [],
   "companies": [],
   "revision": {
     "status": "new",
@@ -27,5 +23,40 @@
   "notes": "",
   "solution_files": [
     "0004-median-of-two-sorted-arrays.java"
-  ]
+  ],
+  "algorithm": "Unknown",
+  "classification": {
+    "difficulty": {
+      "value": "Hard",
+      "source": "readme",
+      "confidence": "high"
+    },
+    "language": {
+      "value": "Java",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "category": {
+      "value": "DSA",
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "topics": {
+      "value": [
+        "Array"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "patterns": {
+      "value": [],
+      "source": "heuristic",
+      "confidence": "low"
+    },
+    "algorithm": {
+      "value": "Unknown",
+      "source": "heuristic",
+      "confidence": "low"
+    }
+  }
 }

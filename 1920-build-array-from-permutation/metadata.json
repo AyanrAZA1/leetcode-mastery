@@ -1,13 +1,12 @@
 {
-  "leetcode_id": 1920,
+  "leetcode_id": "1920",
   "title": "Build Array From Permutation",
-  "slug": "build-array-from-permutation",
+  "slug": "1920-build-array-from-permutation",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
   "topics": [
-    "Array",
-    "Simulation"
+    "Array"
   ],
   "patterns": [],
   "companies": [],
@@ -24,5 +23,40 @@
   "notes": "",
   "solution_files": [
     "1920-build-array-from-permutation.java"
-  ]
+  ],
+  "algorithm": "Unknown",
+  "classification": {
+    "difficulty": {
+      "value": "Easy",
+      "source": "readme",
+      "confidence": "high"
+    },
+    "language": {
+      "value": "Java",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "category": {
+      "value": "DSA",
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "topics": {
+      "value": [
+        "Array"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "patterns": {
+      "value": [],
+      "source": "heuristic",
+      "confidence": "low"
+    },
+    "algorithm": {
+      "value": "Unknown",
+      "source": "heuristic",
+      "confidence": "low"
+    }
+  }
 }

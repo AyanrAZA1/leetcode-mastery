@@ -1,13 +1,12 @@
 {
-  "leetcode_id": 1768,
+  "leetcode_id": "1768",
   "title": "Merge Strings Alternately",
-  "slug": "merge-strings-alternately",
+  "slug": "1768-merge-strings-alternately",
   "language": "Java",
   "category": "DSA",
   "difficulty": "Easy",
   "topics": [
-    "String",
-    "Two Pointers"
+    "String"
   ],
   "patterns": [],
   "companies": [],
@@ -24,5 +23,40 @@
   "notes": "",
   "solution_files": [
     "1768-merge-strings-alternately.java"
-  ]
+  ],
+  "algorithm": "Unknown",
+  "classification": {
+    "difficulty": {
+      "value": "Easy",
+      "source": "readme",
+      "confidence": "high"
+    },
+    "language": {
+      "value": "Java",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "category": {
+      "value": "DSA",
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "topics": {
+      "value": [
+        "String"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "patterns": {
+      "value": [],
+      "source": "heuristic",
+      "confidence": "low"
+    },
+    "algorithm": {
+      "value": "Unknown",
+      "source": "heuristic",
+      "confidence": "low"
+    }
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "Dynamic Programming": [
+    {
+      "id": "0011",
+      "title": "Container With Most Water",
+      "slug": "0011-container-with-most-water",
+      "path": "0011-container-with-most-water"
+    },
+    {
+      "id": "0595",
+      "title": "Big Countries",
+      "slug": "0595-big-countries",
+      "path": "0595-big-countries"
+    }
+  ],
+  "Prefix Sum": [
+    {
+      "id": "1480",
+      "title": "Running Sum Of 1D Array",
+      "slug": "1480-running-sum-of-1d-array",
+      "path": "1480-running-sum-of-1d-array"
+    }
+  ],
+  "Trie": [
+    {
+      "id": "0595",
+      "title": "Big Countries",
+      "slug": "0595-big-countries",
+      "path": "0595-big-countries"
+    }
+  ],
+  "Two Pointers": [
+    {
+      "id": "0011",
+      "title": "Container With Most Water",
+      "slug": "0011-container-with-most-water",
+      "path": "0011-container-with-most-water"
+    },
+    {
+      "id": "0016",
+      "title": "3Sum Closest",
+      "slug": "0016-3sum-closest",
+      "path": "0016-3sum-closest"
+    }
+  ]
+}

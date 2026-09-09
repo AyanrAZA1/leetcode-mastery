@@ -1,16 +1,16 @@
 {
-  "leetcode_id": 16,
+  "leetcode_id": "0016",
   "title": "3Sum Closest",
-  "slug": "3sum-closest",
+  "slug": "0016-3sum-closest",
   "language": "C++",
   "category": "DSA",
   "difficulty": "Medium",
   "topics": [
-    "Array",
-    "Sorting",
+    "Array"
+  ],
+  "patterns": [
     "Two Pointers"
   ],
-  "patterns": [],
   "companies": [],
   "revision": {
     "status": "new",
@@ -25,5 +25,42 @@
   "notes": "",
   "solution_files": [
     "0016-3sum-closest.cpp"
-  ]
+  ],
+  "algorithm": "Unknown",
+  "classification": {
+    "difficulty": {
+      "value": "Medium",
+      "source": "readme",
+      "confidence": "high"
+    },
+    "language": {
+      "value": "C++",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "category": {
+      "value": "DSA",
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "topics": {
+      "value": [
+        "Array"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "patterns": {
+      "value": [
+        "Two Pointers"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "algorithm": {
+      "value": "Unknown",
+      "source": "heuristic",
+      "confidence": "low"
+    }
+  }
 }

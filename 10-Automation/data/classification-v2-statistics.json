@@ -1,0 +1,32 @@
+{
+  "total": 18,
+  "difficulty": {
+    "Hard": 1,
+    "Medium": 3,
+    "Easy": 14
+  },
+  "language": {
+    "Java": 10,
+    "C++": 2,
+    "SQL": 6
+  },
+  "category": {
+    "DSA": 12,
+    "SQL": 6
+  },
+  "topics": {
+    "Array": 8,
+    "Trie": 1,
+    "String": 2
+  },
+  "patterns": {
+    "Two Pointers": 2,
+    "Dynamic Programming": 2,
+    "Trie": 1,
+    "Prefix Sum": 1
+  },
+  "algorithms": {
+    "Unknown": 17,
+    "Trie": 1
+  }
+}

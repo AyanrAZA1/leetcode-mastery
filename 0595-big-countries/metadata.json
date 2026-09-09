@@ -1,14 +1,15 @@
 {
-  "leetcode_id": 595,
+  "leetcode_id": "0595",
   "title": "Big Countries",
-  "slug": "big-countries",
+  "slug": "0595-big-countries",
   "language": "SQL",
   "category": "SQL",
   "difficulty": "Easy",
   "topics": [
-    "Database"
+    "Trie"
   ],
   "patterns": [
+    "Trie",
     "Dynamic Programming"
   ],
   "companies": [],
@@ -25,5 +26,43 @@
   "notes": "",
   "solution_files": [
     "0595-big-countries.sql"
-  ]
+  ],
+  "algorithm": "Trie",
+  "classification": {
+    "difficulty": {
+      "value": "Easy",
+      "source": "readme",
+      "confidence": "high"
+    },
+    "language": {
+      "value": "SQL",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "category": {
+      "value": "SQL",
+      "source": "solution-extension",
+      "confidence": "high"
+    },
+    "topics": {
+      "value": [
+        "Trie"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "patterns": {
+      "value": [
+        "Trie",
+        "Dynamic Programming"
+      ],
+      "source": "heuristic",
+      "confidence": "medium"
+    },
+    "algorithm": {
+      "value": "Trie",
+      "source": "heuristic",
+      "confidence": "medium"
+    }
+  }
 }
