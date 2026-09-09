@@ -4,7 +4,7 @@
     "slug": "two-pointers",
     "name": "Two Pointers"
   },
-  "updatedAt": "2026-09-09T06:20:56.639Z",
+  "updatedAt": "2026-09-09T06:22:39.275Z",
   "problems": [
     {
       "frontendId": "16",
@@ -23,6 +23,26 @@
           "path": "0016-3sum-closest/0016-3sum-closest.cpp",
           "sha": "2e6a2fa36de96f5d1d1d3e8e8412dee18ddb04fe",
           "lastSyncedAt": "2026-09-09T06:20:56.639Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "1768",
+      "title": "Merge Strings Alternately",
+      "slug": "merge-strings-alternately",
+      "problemName": "1768-merge-strings-alternately",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/merge-strings-alternately/",
+      "folderPath": "1768-merge-strings-alternately/",
+      "readmePath": "1768-merge-strings-alternately/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "1768-merge-strings-alternately.java",
+          "path": "1768-merge-strings-alternately/1768-merge-strings-alternately.java",
+          "sha": "7cc0bec0d194677620ef7359f2e2f7957a75ca90",
+          "lastSyncedAt": "2026-09-09T06:22:39.275Z"
         }
       ]
     }
