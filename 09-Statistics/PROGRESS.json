@@ -1,13 +1,13 @@
 {
-  "total_problems": 18,
-  "total_solution_files": 18,
+  "total_problems": 19,
+  "total_solution_files": 19,
   "difficulty": {
     "Hard": 1,
-    "Medium": 3,
+    "Medium": 4,
     "Easy": 14
   },
   "languages": {
-    "Java": 10,
+    "Java": 11,
     "C++": 2,
     "SQL": 6
   },
@@ -17,6 +17,16 @@
       "slug": "median-of-two-sorted-arrays",
       "directory": "0004-median-of-two-sorted-arrays",
       "difficulty": "Hard",
+      "languages": [
+        "Java"
+      ],
+      "solution_count": 1
+    },
+    {
+      "id": 5,
+      "slug": "longest-palindromic-substring",
+      "directory": "0005-longest-palindromic-substring",
+      "difficulty": "Medium",
       "languages": [
         "Java"
       ],

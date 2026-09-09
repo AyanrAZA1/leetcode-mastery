@@ -6,15 +6,15 @@
 
 | Metric | Count |
 |---|---:|
-| **Total Problems** | **18** |
-| Total Solution Files | **18** |
+| **Total Problems** | **19** |
+| Total Solution Files | **19** |
 
 ## Difficulty
 
 | Difficulty | Solved |
 |---|---:|
 | 🟢 Easy | 14 |
-| 🟡 Medium | 3 |
+| 🟡 Medium | 4 |
 | 🔴 Hard | 1 |
 | ⚪ Unknown | 0 |
 
@@ -22,7 +22,7 @@
 
 | Language | Problems |
 |---|---:|
-| Java | 10 |
+| Java | 11 |
 | C++ | 2 |
 | SQL | 6 |
 
@@ -31,6 +31,7 @@
 | # | Problem | Difficulty | Languages |
 |---:|---|---|---|
 | 4 | Median Of Two Sorted Arrays | Hard | Java |
+| 5 | Longest Palindromic Substring | Medium | Java |
 | 11 | Container With Most Water | Medium | Java |
 | 16 | 3Sum Closest | Medium | C++ |
 | 75 | Sort Colors | Medium | Java |

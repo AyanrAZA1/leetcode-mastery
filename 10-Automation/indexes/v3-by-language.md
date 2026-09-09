@@ -1,6 +1,6 @@
 # Problems by Language
 
-> Generated automatically from 19 problems.
+> Generated automatically from 20 problems.
 
 ## C++
 
@@ -11,6 +11,7 @@
 ## Java
 
 - [4 — Median Of Two Sorted Arrays](../../0004-median-of-two-sorted-arrays/)
+- [5 — Longest Palindromic Substring](../../0005-longest-palindromic-substring/)
 - [11 — Container With Most Water](../../0011-container-with-most-water/)
 - [75 — Sort Colors](../../0075-sort-colors/)
 - [1281 — Subtract The Product And Sum Of Digits Of An Integer](../../1281-subtract-the-product-and-sum-of-digits-of-an-integer/)

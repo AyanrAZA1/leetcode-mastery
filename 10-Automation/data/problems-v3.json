@@ -1,18 +1,18 @@
 {
   "version": "3.0",
   "source": "inventory-v3 + Topics/*/problems.json",
-  "total": 19,
+  "total": 20,
   "statistics": {
     "difficulty": {
-      "Unknown": 19
+      "Unknown": 20
     },
     "languages": {
       "C++": 3,
-      "Java": 10,
+      "Java": 11,
       "SQL": 6
     },
     "categories": {
-      "DSA": 13,
+      "DSA": 14,
       "SQL": 6
     },
     "topics": {
@@ -20,19 +20,22 @@
       "Binary Search": 1,
       "Database / SQL": 6,
       "Divide and Conquer": 1,
+      "Dynamic Programming": 1,
       "Greedy": 1,
+      "Manacher": 1,
       "Math": 2,
       "Prefix Sum": 1,
       "Simulation": 2,
       "Sorting": 1,
-      "String": 2,
-      "Two Pointers": 4
+      "String": 3,
+      "Two Pointers": 5
     },
     "patterns": {
       "Binary Search": 1,
+      "Dynamic Programming": 1,
       "Greedy": 1,
       "Prefix Sum": 1,
-      "Two Pointers": 4
+      "Two Pointers": 5
     }
   },
   "problems": [
@@ -57,6 +60,40 @@
       ],
       "patterns": [
         "Binary Search"
+      ],
+      "primary_language": "Java",
+      "revision": {
+        "must_revise": false,
+        "important": false,
+        "mistake_count": 0,
+        "confidence": 0,
+        "last_reviewed": null,
+        "next_review": null
+      }
+    },
+    {
+      "id": 5,
+      "slug": "0005-longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "path": "0005-longest-palindromic-substring",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "0005-longest-palindromic-substring.java"
+      ],
+      "has_readme": true,
+      "file_count": 1,
+      "category": "DSA",
+      "topics": [
+        "Dynamic Programming",
+        "Manacher",
+        "String",
+        "Two Pointers"
+      ],
+      "patterns": [
+        "Dynamic Programming",
+        "Two Pointers"
       ],
       "primary_language": "Java",
       "revision": {

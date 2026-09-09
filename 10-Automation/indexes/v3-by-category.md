@@ -1,10 +1,11 @@
 # Problems by Category
 
-> Generated automatically from 19 problems.
+> Generated automatically from 20 problems.
 
 ## DSA
 
 - [4 — Median Of Two Sorted Arrays](../../0004-median-of-two-sorted-arrays/)
+- [5 — Longest Palindromic Substring](../../0005-longest-palindromic-substring/)
 - [8 — Templates](../../08-Templates/)
 - [11 — Container With Most Water](../../0011-container-with-most-water/)
 - [16 — 3Sum Closest](../../0016-3sum-closest/)
