@@ -80,8 +80,8 @@
       ],
       "solution_files": [
         "SQL_TEMPLATE.sql",
-        "CPP_TEMPLATE.cpp",
-        "JAVA_TEMPLATE.java"
+        "JAVA_TEMPLATE.java",
+        "CPP_TEMPLATE.cpp"
       ],
       "has_readme": false,
       "file_count": 3,
