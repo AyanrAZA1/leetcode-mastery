@@ -1,0 +1,267 @@
+{
+  "total_problem_folders": 18,
+  "unique_problem_ids": 18,
+  "duplicate_ids": {},
+  "missing_readme": [],
+  "missing_solution": [],
+  "unknown_id": [],
+  "languages": {
+    "Java": 10,
+    "C++": 2,
+    "SQL": 6
+  },
+  "problems": [
+    {
+      "id": 4,
+      "slug": "0004-median-of-two-sorted-arrays",
+      "title": "Median Of Two Sorted Arrays",
+      "path": "0004-median-of-two-sorted-arrays",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "0004-median-of-two-sorted-arrays.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 11,
+      "slug": "0011-container-with-most-water",
+      "title": "Container With Most Water",
+      "path": "0011-container-with-most-water",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "0011-container-with-most-water.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 16,
+      "slug": "0016-3sum-closest",
+      "title": "3Sum Closest",
+      "path": "0016-3sum-closest",
+      "languages": [
+        "C++"
+      ],
+      "solution_files": [
+        "0016-3sum-closest.cpp"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 75,
+      "slug": "0075-sort-colors",
+      "title": "Sort Colors",
+      "path": "0075-sort-colors",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "0075-sort-colors.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 175,
+      "slug": "0175-combine-two-tables",
+      "title": "Combine Two Tables",
+      "path": "0175-combine-two-tables",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "0175-combine-two-tables.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 584,
+      "slug": "0584-find-customer-referee",
+      "title": "Find Customer Referee",
+      "path": "0584-find-customer-referee",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "0584-find-customer-referee.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 595,
+      "slug": "0595-big-countries",
+      "title": "Big Countries",
+      "path": "0595-big-countries",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "0595-big-countries.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1148,
+      "slug": "1148-article-views-i",
+      "title": "Article Views I",
+      "path": "1148-article-views-i",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "1148-article-views-i.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1281,
+      "slug": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "title": "Subtract The Product And Sum Of Digits Of An Integer",
+      "path": "1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "1281-subtract-the-product-and-sum-of-digits-of-an-integer.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1470,
+      "slug": "1470-shuffle-the-array",
+      "title": "Shuffle The Array",
+      "path": "1470-shuffle-the-array",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "1470-shuffle-the-array.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1480,
+      "slug": "1480-running-sum-of-1d-array",
+      "title": "Running Sum Of 1D Array",
+      "path": "1480-running-sum-of-1d-array",
+      "languages": [
+        "C++"
+      ],
+      "solution_files": [
+        "1480-running-sum-of-1d-array.cpp"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1683,
+      "slug": "1683-invalid-tweets",
+      "title": "Invalid Tweets",
+      "path": "1683-invalid-tweets",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "1683-invalid-tweets.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1757,
+      "slug": "1757-recyclable-and-low-fat-products",
+      "title": "Recyclable And Low Fat Products",
+      "path": "1757-recyclable-and-low-fat-products",
+      "languages": [
+        "SQL"
+      ],
+      "solution_files": [
+        "1757-recyclable-and-low-fat-products.sql"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1768,
+      "slug": "1768-merge-strings-alternately",
+      "title": "Merge Strings Alternately",
+      "path": "1768-merge-strings-alternately",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "1768-merge-strings-alternately.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1920,
+      "slug": "1920-build-array-from-permutation",
+      "title": "Build Array From Permutation",
+      "path": "1920-build-array-from-permutation",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "1920-build-array-from-permutation.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 1929,
+      "slug": "1929-concatenation-of-array",
+      "title": "Concatenation Of Array",
+      "path": "1929-concatenation-of-array",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "1929-concatenation-of-array.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 2278,
+      "slug": "2278-percentage-of-letter-in-string",
+      "title": "Percentage Of Letter In String",
+      "path": "2278-percentage-of-letter-in-string",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "2278-percentage-of-letter-in-string.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    },
+    {
+      "id": 2520,
+      "slug": "2520-count-the-digits-that-divide-a-number",
+      "title": "Count The Digits That Divide A Number",
+      "path": "2520-count-the-digits-that-divide-a-number",
+      "languages": [
+        "Java"
+      ],
+      "solution_files": [
+        "2520-count-the-digits-that-divide-a-number.java"
+      ],
+      "has_readme": true,
+      "file_count": 1
+    }
+  ]
+}
