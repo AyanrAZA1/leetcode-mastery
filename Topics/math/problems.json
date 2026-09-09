@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "topic": {
+    "slug": "math",
+    "name": "Math"
+  },
+  "updatedAt": "2026-09-09T06:22:24.832Z",
+  "problems": [
+    {
+      "frontendId": "2520",
+      "title": "Count the Digits That Divide a Number",
+      "slug": "count-the-digits-that-divide-a-number",
+      "problemName": "2520-count-the-digits-that-divide-a-number",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
+      "folderPath": "2520-count-the-digits-that-divide-a-number/",
+      "readmePath": "2520-count-the-digits-that-divide-a-number/README.md",
+      "solutions": [
+        {
+          "language": "Java",
+          "extension": ".java",
+          "filename": "2520-count-the-digits-that-divide-a-number.java",
+          "path": "2520-count-the-digits-that-divide-a-number/2520-count-the-digits-that-divide-a-number.java",
+          "sha": "652f977a584b10aa9a5eb06489990195db2d136e",
+          "lastSyncedAt": "2026-09-09T06:22:24.832Z"
+        }
+      ]
+    }
+  ]
+}
