@@ -1,6 +1,6 @@
 # Problems by Pattern
 
-> Generated automatically from 20 problems.
+> Generated automatically from 19 problems.
 
 ## Binary Search
 

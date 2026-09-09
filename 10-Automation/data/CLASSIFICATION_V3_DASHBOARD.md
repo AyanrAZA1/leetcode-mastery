@@ -1,21 +1,21 @@
 # 📊 Classification V3 Dashboard
 
-**Total Problems:** 20
+**Total Problems:** 19
 
 ## Categories
 
-- **DSA:** 14
+- **DSA:** 13
 - **SQL:** 6
 
 ## Languages
 
-- **C++:** 3
+- **C++:** 2
 - **Java:** 11
 - **SQL:** 6
 
 ## Difficulty
 
-- **Unknown:** 20
+- **Unknown:** 19
 
 ## Topics
 

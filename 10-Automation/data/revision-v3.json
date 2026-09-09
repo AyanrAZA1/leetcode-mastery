@@ -10,7 +10,7 @@
     30,
     60
   ],
-  "total_problems": 20,
+  "total_problems": 19,
   "problems": [
     {
       "id": "4",
@@ -50,23 +50,6 @@
         "Dynamic Programming",
         "Two Pointers"
       ],
-      "must_revise": false,
-      "important": false,
-      "mistake_count": 0,
-      "confidence": 0,
-      "last_reviewed": null,
-      "next_review": null,
-      "review_count": 0,
-      "revision_level": 0,
-      "notes": ""
-    },
-    {
-      "id": "8",
-      "title": "Templates",
-      "difficulty": "Unknown",
-      "category": "DSA",
-      "topics": [],
-      "patterns": [],
       "must_revise": false,
       "important": false,
       "mistake_count": 0,
